@@ -1,0 +1,81 @@
+{% extends "home/base.html" %}
+{% load static %}
+{% block title %}<title>FillUp Deals</title>{% endblock %}
+{% block ptitle %}
+<section id="page-title" class="page-title-parallax page-title-dark page-title-center" style="background: url('images/about-us/page-title.jpg') no-repeat center center / cover; padding: 140px 0;" data-center="background-position: 0px 50%;" data-top-bottom="background-position:0px 0px;">
+
+	<div class="container clearfix">
+		<h1>Deals</h1>
+	</div>
+
+	<div class="video-wrap" style="position: absolute; top: 0; left: 0; height: 80%; z-index:1;">
+			<div class="video-overlay" style="background: rgba(0,0,0,0.3);"></div>
+		</div>
+	</section>
+	{% endblock %}
+{% block content %}
+<section id="content">
+
+	<div class="content-wrap">
+		<div class="container clearfix">
+			<div style="position: relative;">
+				<div id="deals-home">
+				<div class="button-div" style="padding-bottom: 20px;">
+				<a href="{%  url 'post-create' %}" class="button button-small button-rounded button-border button-border-thin t500 nomargin">Create New Post</a>
+				<div class="button-div2" style="position: relative;float:right; padding-bottom: 20px;">
+					<a href="#" class="button button-small button-rounded button-border button-border-thin t500 nomargin">Reset</a>
+					<div class="top-links">
+						<ul>
+							<li><a href="#" class="button button-small button-rounded button-border button-border-thin t500 nomargin">Search</a>
+								<ul>
+									{% for tag in tags %}
+									<li><a href="{% url 'tagged' tag.slug %}">{{ tag.name }}</a></li>
+									{% endfor %}
+								</ul>
+							</li>
+						</ul>
+					</div><!-- .top-links end -->
+
+				</div>
+				</div>
+				</div>
+{% for post in posts %}
+	<div class="media-body" style="background:#ffffff;padding: 10px 20px;border: 1px solid #dddddd;border-radius: 4px;margin-bottom: 10px; position: centre;">
+        <article class="media content-section">
+          <div class="media-body">
+            <div class="article-metadata">
+              <a class="mr-2" href="{% url 'user-posts' post.author.username %}">{{ post.author }}</a>
+
+              <small class="text-muted">{{ post.date_posted }}</small>
+            </div>
+            <h2 style="margin:0 0 0 0;"><a class="article-title" href="{% url 'post-detail' post.id %}">{{ post.title }}</a></h2>
+            <p class="article-content">{{ post.content }}</p>
+						<a href="{% url 'post-detail' pk=post.pk %}">Comments: {{ post.approved_comments.count }}</a>
+						</div>
+						</article>
+						</div>
+    {% endfor %}
+	</div>
+</div>
+</section>
+    {% if is_paginated %}
+
+      {% if page_obj.has_previous %}
+        <a class="btn btn-outline-info mb-4" href="?page=1">First</a>
+        <a class="btn btn-outline-info mb-4" href="?page={{ page_obj.previous_page_number }}">Previous</a>
+      {% endif %}
+
+      {% for num in page_obj.paginator.page_range %}
+        {% if page_obj.number == num %}
+          <a class="btn btn-info mb-4" href="?page={{ num }}">{{ num }}</a>
+        {% elif num > page_obj.number|add:'-3' and num < page_obj.number|add:'3' %}
+          <a class="btn btn-outline-info mb-4" href="?page={{ num }}">{{ num }}</a>
+        {% endif %}
+      {% endfor %}
+
+      {% if page_obj.has_next %}
+        <a class="btn btn-outline-info mb-4" href="?page={{ page_obj.next_page_number }}">Next</a>
+        <a class="btn btn-outline-info mb-4" href="?page={{ page_obj.paginator.num_pages }}">Last</a>
+      {% endif %}
+    {% endif %}
+{% endblock %}

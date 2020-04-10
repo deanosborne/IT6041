@@ -1,0 +1,56 @@
+{% extends "home/base.html" %}
+{% block content %}
+
+
+
+<section id="content">
+
+	<div class="content-wrap">
+		<div class="container clearfix">
+        <div class="media-body" style="background:#ffffff;padding: 10px 20px;border: 1px solid #dddddd;border-radius: 4px;margin-bottom: 10px; position: centre;">
+            <div class="profile-form" style="display: table;">
+  <article class="media content-section">
+    <img class="rounded-circle article-img" src="{{ object.author.profile.image.url }}">
+    <div class="media-body">
+      <div class="article-metadata">
+
+        <a class="mr-2" href="#">{{ object.author }}</a>
+				{{ tags.name }}
+        <small class="text-muted">{{ object.date_posted|date:"F d, Y" }}</small>
+        {% if object.author == user %}
+          <div>
+            <a class="btn btn-secondary btn-sm mt-1 mb-1" href="{% url 'post-update' object.id %}">Update</a>
+            <a class="btn btn-danger btn-sm mt-1 mb-1" href="{% url 'post-delete' object.id %}">Delete</a>
+          </div>
+        {% endif %}
+      </div>
+      <h2 class="article-title">{{ object.title }}</h2>
+      <p class="article-content">{{ object.content }}</p>
+			<a class="btn btn-default" href="{% url 'add_comment_to_post' pk=post.pk %}">Add comment</a>
+			<hr>
+			{% for comment in post.comments.all %}
+			    {% if user.is_authenticated or comment.approved_comment %}
+			    <div class="comment">
+			        <div class="date">
+			            {{ comment.date_posted }}
+			            {% if not comment.approved_comment %}
+			                <a class="btn btn-default" href="{% url 'comment_remove' pk=comment.pk %}"><span class="glyphicon glyphicon-remove"></span></a>
+			                <a class="btn btn-default" href="{% url 'comment_approve' pk=comment.pk %}"><span class="glyphicon glyphicon-ok"></span></a>
+			            {% endif %}
+			        </div>
+			        <strong>{{ comment.author }}</strong>
+			        <p>{{ comment.text|linebreaks }}</p>
+			    </div>
+			    {% endif %}
+			{% empty %}
+			    <p>No comments here yet :(</p>
+			{% endfor %}
+    </div>
+  </article>
+  </div>
+  </div>
+  </div>
+  </div>
+  </section>
+
+{% endblock content %}

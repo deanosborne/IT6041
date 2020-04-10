@@ -1,0 +1,18 @@
+{% extends "home/base.html" %}
+
+{% block content %}
+<section id="content">
+
+	<div class="content-wrap">
+		<div class="container clearfix">
+        <div class="media-body" style="background:#ffffff;padding: 10px 20px;border: 1px solid #dddddd;border-radius: 4px;margin-bottom: 10px; position: centre;">
+    <h1>New comment</h1>
+    <form method="POST" class="post-form">{% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit" class="save btn btn-default">Send</button>
+    </form>
+    </div>
+    </div>
+    </div>
+    </section>
+{% endblock %}

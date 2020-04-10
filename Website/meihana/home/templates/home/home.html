@@ -1,0 +1,263 @@
+{% extends "home/base.html" %}
+{% block content %}
+{% load static %}
+{% block ptitle %}
+{% endblock %}
+		<!-- Slider
+		============================================= -->
+		<section id="slider" class="slider-element full-screen clearfix" style="background: url({% static 'demos/real-estate/images/header-home.png' %}) top right no-repeat; background-size: cover;background-color:grey;" data-height-md="550">
+
+			<div class="full-screen">
+				<div class="real-estate-tabs-slider" style="bottom: 210px !important;">
+					<div class="container clearfix">
+						<div class="tabs advanced-real-estate-tabs nomargin clearfix" style="max-width: 500px;">
+
+							<ul class="tab-nav clearfix">
+								<li class="noleftmargin"><a href="#tab-buy">Fillup</a></li>
+							</ul>
+
+							<div class="tab-container" style="">
+								<div class="tab-content clearfix" id="tab-buy">
+									<form action="#" method="post" class="nobottommargin">
+										<div class="row">
+											<div class="col-md-6 col-12 bottommargin-sm" style="flex: 100% !important;max-width: 100% !important;margin-bottom: 0px !important;">
+												<label for="" style="margin: 0 auto;!important">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget diam aliquet, vestibulum turpis id, sagittis lacus. Aliquam tincidunt orci sodales tempor volutpat.</label>
+											<div class="col-md-12 clearfix">
+												<a href="#deals-test" button class="button button-3d button-rounded btn-block nomargin" style="margin-top: 35px !important;text-align: center;">View Deals</a>
+											</div>
+										</div>
+									</form>
+								</div>
+
+
+				</div>
+				<div class="video-wrap">
+					<!-- <video id="slide-video" preload="auto" loop autoplay muted>
+						<source src='images/videos/explore.webm' type='video/webm' />
+					</video> -->
+					<div class="video-overlay" style="background-color: rgba(0,0,0,0.3); z-index: 1;"></div>
+				</div>
+			</div>
+
+		</section><!-- #slider end -->
+
+		<!-- Content
+		============================================= -->
+		<section id="content">
+
+			<div class="content-wrap">
+
+				<div class="container clearfix">
+					<div style="position: relative;">
+						<div class="featured-deals" style="padding-top: 80px;">
+						<div class="heading-block nobottomborder">
+							<h3>Featured Deals</h3>
+						</div>
+						</div>
+						<div class="real-estate owl-carousel image-carousel carousel-widget bottommargin-lg" data-margin="10" data-nav="true" data-loop="true" data-pagi="false" data-items-xs="1" data-items-sm="1" data-items-md="2" data-items-lg="3" data-items-xl="3">
+
+							<div class="oc-item">
+								<div class="real-estate-item">
+									<div class="real-estate-item-image">
+										<div class="badge badge-danger bgcolor-2">Hot Deal</div>
+										<a href="#">
+											<img src="{% static 'demos/real-estate/images/items/1.jpg' %}" alt="Image 1">
+										</a>
+										<div class="real-estate-item-price">
+											0.9c<span>Placeholder</span>
+										</div>
+										<div class="real-estate-item-info clearfix">
+											<a href="#"><i class="icon-line-stack-2"></i></a>
+											<a href="#"><i class="icon-line-heart"></i></a>
+										</div>
+									</div>
+
+									<div class="real-estate-item-desc">
+										<h3><a href="#">Placeholder</a></h3>
+										<span>Placeholder</span>
+
+										<a href="#" class="real-estate-item-link"><i class="icon-info"></i></a>
+
+										<div class="line" style="margin-top: 15px; margin-bottom: 15px;"></div>
+
+									</div>
+								</div>
+							</div>
+							<div class="oc-item">
+								<div class="real-estate-item">
+									<div class="real-estate-item-image">
+										<div class="badge badge-success">Hot Deal</div>
+										<a href="#">
+											<img src="{% static 'demos/real-estate/images/items/2.jpg' %}" alt="Image 2">
+										</a>
+										<div class="real-estate-item-price">
+											1.99<span>Placeholder</span>
+										</div>
+										<div class="real-estate-item-info clearfix">
+											<a href="#"><i class="icon-line-stack-2"></i></a>
+											<a href="#"><i class="icon-line-heart"></i></a>
+										</div>
+									</div>
+
+									<div class="real-estate-item-desc">
+										<h3><a href="#">Placeholder</a></h3>
+										<span>Placeholder</span>
+
+										<a href="#" class="real-estate-item-link"><i class="icon-info"></i></a>
+
+										<div class="line" style="margin-top: 15px; margin-bottom: 15px;"></div>
+
+									</div>
+								</div>
+							</div>
+							<div class="oc-item">
+								<div class="real-estate-item">
+									<div class="real-estate-item-image">
+										<div class="badge badge-danger">Placeholder</div>
+										<a href="#">
+											<img src="{% static 'demos/real-estate/images/items/4.jpg' %}" alt="Image 3">
+										</a>
+										<div class="real-estate-item-price">
+										 2.33<span>Placeholder</span>
+										</div>
+										<div class="real-estate-item-info clearfix">
+											<a href="#"><i class="icon-line-stack-2"></i></a>
+											<a href="#"><i class="icon-line-heart"></i></a>
+										</div>
+									</div>
+
+									<div class="real-estate-item-desc">
+										<h3><a href="#">Placeholder</a></h3>
+										<span>Placeholder</span>
+
+										<a href="#" class="real-estate-item-link"><i class="icon-info"></i></a>
+
+										<div class="line" id="deals-test" style="margin-top: 15px; margin-bottom: 15px;"></div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+
+					<div class="clear"></div>
+
+
+				<div class="container clear-bottommargin clearfix">
+
+					<div class="col_two_third">
+
+						<div class="tabs tabs-justify tabs-tb tabs-alt nobottommargin clearfix" id="realestate-tabs" data-active="1">
+
+							<ul class="tab-nav clearfix">
+								<li><a href="#realestate-tab-1">Why Us?</a></li>
+								<li><a href="#realestate-tab-2">Properties</a></li>
+								<li><a href="#realestate-tab-3">Legal</a></li>
+							</ul>
+
+							<div class="tab-container">
+
+								<div class="tab-content clearfix" id="realestate-tab-1">
+									<p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris dapibus lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. Phasellus ipsum. Nunc tristique tempus lectus.
+									<div class="col_one_fourth nobottommargin center">
+										<div class="counter ls1 t600" style="color: #D2D2D2;"><span data-from="1" data-to="13" data-refresh-interval="50" data-speed="2000"></span></div>
+										<h5>Cities</h5>
+									</div>
+
+									<div class="col_one_fourth nobottommargin center">
+										<div class="counter ls1 t600" style="color: #D2D2D2;"><span data-from="0" data-to="6" data-refresh-interval="50" data-speed="2500"></span></div>
+										<h5>Partners</h5>
+									</div>
+
+									<div class="col_one_fourth nobottommargin center">
+										<div class="counter ls1 t600" style="color: #D2D2D2;"><span data-from="321" data-to="1000" data-refresh-interval="50" data-speed="3500"></span></div>
+										<h5>Happy Users</h5>
+									</div>
+
+									<div class="col_one_fourth nobottommargin center col_last">
+										<div class="counter ls1 t600" style="color: #D2D2D2;"><span data-from="0" data-to="100" data-refresh-interval="15" data-speed="2700"></span></div>
+										<h5>Current Deals</h5>
+									</div>
+								</div>
+								<div class="tab-content clearfix" id="realestate-tab-2">
+									<p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.</p>
+									<div class="row clearfix">
+										<div class="col-md-4">
+											<ul class="iconlist nobottommargin">
+												<li><i class="icon-ok"></i> 100% Assurance</li>
+												<li><i class="icon-ok"></i> Hard Working</li>
+												<li><i class="icon-ok"></i> Trustworthy</li>
+											</ul>
+										</div>
+										<div class="col-md-4">
+											<ul class="iconlist nobottommargin">
+												<li><i class="icon-ok"></i> Intelligent</li>
+												<li><i class="icon-ok"></i> Always Curious</li>
+												<li><i class="icon-ok"></i> Perfectionists</li>
+											</ul>
+										</div>
+										<div class="col-md-4">
+											<ul class="iconlist nobottommargin">
+												<li><i class="icon-ok"></i> Friendly &amp; Helpful</li>
+												<li><i class="icon-ok"></i> Accomodating Nature</li>
+												<li><i class="icon-ok"></i> Available 24x7</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="tab-content clearfix" id="realestate-tab-3">
+
+									<div class="clear-bottommargin-sm">
+										<div class="row clearfix">
+											<div class="col-md-7 bottommargin-sm">
+												<p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor.</p>
+												<div class="clear-bottommargin-sm">
+													<div class="row clearfix">
+														<div class="col-md-6 bottommargin-sm">
+															<address>
+																<strong>Headquarters:</strong><br>
+																Placeholder<br>
+																Placeholder<br>
+															</address>
+														</div>
+														<div class="col-md-6 bottommargin-sm">
+															<abbr title="Phone Number"><strong>Phone:</strong></abbr> 123456<br>
+															<abbr title="Fax"><strong>Fax:</strong></abbr> 123456<br>
+															<abbr title="Email Address"><strong>Email:</strong></abbr> info@fillup.com
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+								</div>
+
+							</div>
+
+						</div>
+
+					</div>
+
+					<div class="col_one_third col_last">
+
+						<h4 class="center">Top Companies</h4>
+
+						<ul class="clients-grid grid-2 nobottommargin clearfix">
+							<li style="padding: 20px;"><a href="#" style="opacity: 0.9"><img src="{% static 'demos/real-estate/images/builders/1.png' %}" alt="Clients"></a></li>
+							<li style="padding: 20px;"><a href="#" style="opacity: 0.9"><img src="{% static 'demos/real-estate/images/builders/2.png' %}" alt="Clients"></a></li>
+							<li style="padding: 20px;"><a href="#" style="opacity: 0.9"><img src="{% static 'demos/real-estate/images/builders/3.png' %}" alt="Clients"></a></li>
+							<li style="padding: 20px;"><a href="#" style="opacity: 0.9"><img src="{% static 'demos/real-estate/images/builders/4.png' %}" alt="Clients"></a></li>
+						</ul>
+
+					</div>
+
+					<div class="clear"></div>
+
+				</div>
+
+			</div>
+
+		</section><!-- #content end -->
+
+		{% endblock %}

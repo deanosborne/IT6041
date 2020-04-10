@@ -1,0 +1,22 @@
+{% extends "home/base.html" %}
+{% load crispy_forms_tags %}
+{% block content %}
+{% load static %}
+<section id="content">
+
+	<div class="content-wrap">
+		<div class="container clearfix">
+        <div class="media-body" style="background:#ffffff;padding: 10px 20px;border: 1px solid #dddddd;border-radius: 4px;margin-bottom: 10px; position: centre;">
+<form method ="POST" style="margin: auto;display: table;">
+  {% csrf_token %}
+  {{ form|crispy }}
+	<br>
+	<br>
+  <button class ="btn btn-outline-info" type="Submit">Login</button>
+  </form>
+</section>
+</div>
+</div>
+</div>
+</div>
+{% endblock %}
