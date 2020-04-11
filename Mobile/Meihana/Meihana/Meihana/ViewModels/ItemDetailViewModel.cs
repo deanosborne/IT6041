@@ -1,6 +1,9 @@
 ﻿using System;
+using System.Windows.Input;
+using Xamarin.Essentials;
+using Xamarin.Forms;
 
-using Meihana.Models;
+using Meihana.Model;
 
 namespace Meihana.ViewModels
 {

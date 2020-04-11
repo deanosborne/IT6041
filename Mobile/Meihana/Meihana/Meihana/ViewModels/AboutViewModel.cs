@@ -9,7 +9,7 @@ namespace Meihana.ViewModels
     {
         public AboutViewModel()
         {
-            Title = "About";
+            Title = "Home";
             OpenWebCommand = new Command(async () => await Browser.OpenAsync("https://xamarin.com"));
         }
 

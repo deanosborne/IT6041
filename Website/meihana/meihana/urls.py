@@ -19,7 +19,7 @@ urlpatterns = [
 ]
 
 urlpatterns += [
-    path('home/', include('home.urls')),
+    path('', include('home.urls')),
 ]
 
 from django.views.generic import RedirectView

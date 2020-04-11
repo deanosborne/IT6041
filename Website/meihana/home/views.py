@@ -24,9 +24,13 @@ def about(request):
     title_text = 'About'
     return render(request, 'home/about-us.html', {'title_text':title_text})
 
-def stats(request):
-    title_text = 'Stats'
-    return render(request, 'home/statistics.html', {'title_text':title_text})
+def diagnosis(request):
+    title_text = 'Diagnosis'
+    return render(request, 'home/diagnosis.html', {'title_text':title_text})
+
+def resources(request):
+    title_text = 'resources'
+    return render(request, 'home/resources.html', {'title_text':title_text})
 
 def contact(request):
     title_text = 'Contact'

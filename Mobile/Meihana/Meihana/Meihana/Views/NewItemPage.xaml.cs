@@ -4,7 +4,7 @@ using System.ComponentModel;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-using Meihana.Models;
+using Meihana.Model;
 
 namespace Meihana.Views
 {

@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 
-using Meihana.Models;
+using Meihana.Model;
 using Meihana.Views;
 
 namespace Meihana.ViewModels

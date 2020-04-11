@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-using Meihana.Models;
+using Meihana.Model;
 using Meihana.Views;
 using Meihana.ViewModels;
 

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Meihana.Models
+namespace Meihana.Model
 {
     public class Item
     {

@@ -5,7 +5,7 @@ using System.Runtime.CompilerServices;
 
 using Xamarin.Forms;
 
-using Meihana.Models;
+using Meihana.Model;
 using Meihana.Services;
 
 namespace Meihana.ViewModels

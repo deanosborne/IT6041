@@ -7,11 +7,16 @@
              x:Class="Meihana.Views.AboutPage"
              xmlns:vm="clr-namespace:Meihana.ViewModels"
              Title="{Binding Title}">
-    
+
     <ContentPage.BindingContext>
         <vm:AboutViewModel />
     </ContentPage.BindingContext>
-    
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Logout" Clicked="LoginItem_Clicked" />
+
+    </ContentPage.ToolbarItems>
+
     <ContentPage.Resources>
         <ResourceDictionary>
             <Color x:Key="Primary">#2196F3</Color>
@@ -25,57 +30,84 @@
             <RowDefinition Height="Auto" />
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
-        <StackLayout BackgroundColor="{StaticResource Accent}" VerticalOptions="FillAndExpand" HorizontalOptions="Fill">
+        <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="Fill">
             <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
-                <ContentView Padding="0,40,0,40" VerticalOptions="FillAndExpand">
-                    <Image Source="xamarin_logo.png" VerticalOptions="Center" HeightRequest="64" />
+                <ContentView Padding="0,40,0,00" VerticalOptions="FillAndExpand">
+                    <Image Source="qrcode.png" VerticalOptions="Center" HeightRequest="128" />
                 </ContentView>
             </StackLayout>
         </StackLayout>
         <ScrollView Grid.Row="1">
-            <StackLayout Orientation="Vertical" Padding="16,40,16,40" Spacing="10">
-                <Label FontSize="22">
+            <StackLayout Orientation="Vertical" Padding="16,0,16,0" HorizontalOptions="CenterAndExpand">
+                <Label FontSize="22" HorizontalOptions="Center">
                     <Label.FormattedText>
                         <FormattedString>
                             <FormattedString.Spans>
-                                <Span Text="AppName" FontAttributes="Bold" FontSize="22" />
+                                <Span Text="Welcome back," FontAttributes="Bold" FontSize="22" />
                                 <Span Text=" " />
-                                <Span Text="1.0" ForegroundColor="{StaticResource LightTextColor}" />
+                                <Span Text="User&#10;" ForegroundColor="{StaticResource LightTextColor}" />
                             </FormattedString.Spans>
                         </FormattedString>
                     </Label.FormattedText>
                 </Label>
-                <Label>
+            </StackLayout>
+        </ScrollView>
+        <ScrollView Grid.Row="1">
+            <StackLayout Orientation="Vertical" Padding="0,32,0,0" HorizontalOptions="CenterAndExpand">
+                <Label FontSize="22" HorizontalOptions="Center">
                     <Label.FormattedText>
                         <FormattedString>
                             <FormattedString.Spans>
-                                <Span Text="This app is written in C# and native APIs using the" />
-                                <Span Text=" " />
-                                <Span Text="Xamarin Platform" FontAttributes="Bold" />
-                                <Span Text="." />
+                                <Span Text="Current Balance&#10;" FontAttributes="Bold" FontSize="22"  />
                             </FormattedString.Spans>
                         </FormattedString>
                     </Label.FormattedText>
                 </Label>
-                <Label>
+            </StackLayout>
+        </ScrollView>
+        <ScrollView Grid.Row="1">
+            <StackLayout Orientation="Vertical" Padding="0,54,0,0" HorizontalOptions="CenterAndExpand">
+                <Label FontSize="22" HorizontalOptions="Center">
                     <Label.FormattedText>
                         <FormattedString>
                             <FormattedString.Spans>
-                                <Span Text="It shares code with its" />
-                                <Span Text=" " />
-                                <Span Text="iOS, Android, and Windows" FontAttributes="Bold" />
-                                <Span Text=" " />
-                                <Span Text="versions." />
+                                <Span Text="0.00" ForegroundColor="{StaticResource LightTextColor}" />
                             </FormattedString.Spans>
                         </FormattedString>
                     </Label.FormattedText>
                 </Label>
-                <Button Margin="0,10,0,0" Text="Learn more"
-                        Command="{Binding OpenWebCommand}"
-                        BackgroundColor="{StaticResource Primary}"
-                        TextColor="White" />
+            </StackLayout>
+        </ScrollView>
+        <ScrollView Grid.Row="1">
+            <StackLayout Orientation="Horizontal" Padding="0,74,0,0" HorizontalOptions="Center" VerticalOptions="Center">
+                <ContentView VerticalOptions="FillAndExpand">
+                    <Image Source="LOYALTY.png" VerticalOptions="Center" HeightRequest="64" />
+                </ContentView>
+            </StackLayout>
+        </ScrollView>
+        <ScrollView Grid.Row="1">
+            <StackLayout Orientation="Vertical" Padding="0,130,0,0" HorizontalOptions="CenterAndExpand">
+                <Label FontSize="15" HorizontalOptions="Center">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <FormattedString.Spans>
+                                <Span Text="Get a free coffee on your 10th purchase" ForegroundColor="{StaticResource LightTextColor}" />
+                            </FormattedString.Spans>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+            </StackLayout>
+        </ScrollView>
+
+        <ScrollView Grid.Row="1">
+            <StackLayout Orientation="Horizontal" Padding="0,150,0,0" HorizontalOptions="Center" VerticalOptions="Center">
+                <ContentView VerticalOptions="Center">
+                    <Button x:Name="ForgotButton"
+                Text="Order"
+                            Clicked="ForgotButton_Clicked"/>
+                </ContentView>
             </StackLayout>
         </ScrollView>
     </Grid>
-    
+
 </ContentPage>

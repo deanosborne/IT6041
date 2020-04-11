@@ -14,5 +14,14 @@ namespace Meihana.Views
         {
             InitializeComponent();
         }
+        private void LoginItem_Clicked(object sender, EventArgs e)
+        {
+            Application.Current.MainPage = new LoginPage();
+        }
+
+        async void ForgotButton_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushModalAsync(new NavigationPage(new ItemsPage()));
+        }
     }
 }
