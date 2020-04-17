@@ -1,5 +1,13 @@
 sceneSetups:
 - path: Assets/Standard Assets/Scenes/Demo.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
+- path: Assets/TutorialLevel.unity
   isLoaded: 1
   isActive: 1
+  isSubScene: 0
+- path: Assets/Standard Assets/Scenes/Simple.unity
+  isLoaded: 0
+  isActive: 0
   isSubScene: 0

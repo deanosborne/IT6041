@@ -73,8 +73,23 @@
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>F:/Users/imdea/Desktop/UNI/FINALPROJECT/IT6041/Game/Meihana/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.ProGrids">
+      <HintPath>F:/Users/imdea/Desktop/UNI/FINALPROJECT/IT6041/Game/Meihana/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>F:/Users/imdea/Desktop/UNI/FINALPROJECT/IT6041/Game/Meihana/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder">
+      <HintPath>F:/Users/imdea/Desktop/UNI/FINALPROJECT/IT6041/Game/Meihana/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.Editor">
+      <HintPath>F:/Users/imdea/Desktop/UNI/FINALPROJECT/IT6041/Game/Meihana/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
+      <HintPath>F:/Users/imdea/Desktop/UNI/FINALPROJECT/IT6041/Game/Meihana/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProGrids.Editor">
+      <HintPath>F:/Users/imdea/Desktop/UNI/FINALPROJECT/IT6041/Game/Meihana/Library/ScriptAssemblies/Unity.ProGrids.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>F:/Users/imdea/Desktop/UNI/FINALPROJECT/IT6041/Game/Meihana/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
@@ -88,8 +103,17 @@
     <Reference Include="Unity.CollabProxy.Editor">
       <HintPath>F:/Users/imdea/Desktop/UNI/FINALPROJECT/IT6041/Game/Meihana/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Postprocessing.Editor">
+      <HintPath>F:/Users/imdea/Desktop/UNI/FINALPROJECT/IT6041/Game/Meihana/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>F:/Users/imdea/Desktop/UNI/FINALPROJECT/IT6041/Game/Meihana/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Runtime">
+      <HintPath>F:/Users/imdea/Desktop/UNI/FINALPROJECT/IT6041/Game/Meihana/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.AddOns.Editor">
+      <HintPath>F:/Users/imdea/Desktop/UNI/FINALPROJECT/IT6041/Game/Meihana/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>F:/Users/imdea/Desktop/UNI/FINALPROJECT/IT6041/Game/Meihana/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
