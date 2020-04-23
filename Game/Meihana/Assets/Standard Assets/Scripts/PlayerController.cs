@@ -22,13 +22,6 @@ public class PlayerController : MonoBehaviour
 
     private InventoryItemBase mCurrentItem = null;
 
-    private HealthBar mHealthBar;
-
-    private HealthBar mFoodBar;
-
-    private int startHealth;
-
-    private int startFood;
     private bool mCanTakeDamage = true;
     [SerializeField] private MouseLook m_MouseLook;
     private Camera m_Camera;
@@ -89,20 +82,6 @@ public class PlayerController : MonoBehaviour
         Inventory.ItemRemoved += Inventory_ItemRemoved;
         m_Camera = Camera.main;
         m_MouseLook.Init(transform, m_Camera.transform);
-
-        mHealthBar = Hud.transform.Find("Bars_Panel/HealthBar").GetComponent<HealthBar>();
-        mHealthBar.Min = 0;
-        mHealthBar.Max = Health;
-        startHealth = Health;
-        mHealthBar.SetValue(Health);
-
-        mFoodBar = Hud.transform.Find("Bars_Panel/FoodBar").GetComponent<HealthBar>();
-        mFoodBar.Min = 0;
-        mFoodBar.Max = Food;
-        startFood = Food;
-        mFoodBar.SetValue(Food);
-
-        InvokeRepeating("IncreaseHunger", 0, HungerRate);
     }
 
 
@@ -213,37 +192,6 @@ public class PlayerController : MonoBehaviour
 
     #region Health & Hunger
 
-    [Tooltip("Amount of health")]
-    public int Health = 100;
-
-    [Tooltip("Amount of food")]
-    public int Food = 100;
-
-    [Tooltip("Rate in seconds in which the hunger increases")]
-    public float HungerRate = 0.5f;
-
-    public void IncreaseHunger()
-    {
-        Food--;
-        if (Food < 0)
-            Food = 0;
-
-        mFoodBar.SetValue(Food);
-
-        if (Food == 0)
-        {
-            CancelInvoke();
-            Die();
-        }
-    }
-
-    public bool IsDead
-    {
-        get
-        {
-            return Health == 0 || Food == 0;
-        }
-    }
 
     public bool CarriesItem(string itemName)
     {
@@ -267,48 +215,6 @@ public class PlayerController : MonoBehaviour
 
             return mCurrentItem.ItemType == EItemType.Weapon;
         }
-    }
-
-
-    public void Eat(int amount)
-    {
-        Food += amount;
-        if (Food > startFood)
-        {
-            Food = startFood;
-        }
-
-        mFoodBar.SetValue(Food);
-
-    }
-
-    public void Rehab(int amount)
-    {
-        Health += amount;
-        if (Health > startHealth)
-        {
-            Health = startHealth;
-        }
-
-        mHealthBar.SetValue(Health);
-    }
-
-    public void TakeDamage(int amount)
-    {
-        if (!mCanTakeDamage)
-            return;
-
-        Health -= amount;
-        if (Health < 0)
-            Health = 0;
-
-        mHealthBar.SetValue(Health);
-
-        if (IsDead)
-        {
-            Die();
-        }
-
     }
 
 
@@ -368,14 +274,6 @@ public class PlayerController : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (!IsDead)
-        {
-            // Drop item
-            if (mCurrentItem != null && Input.GetKeyDown(KeyCode.R))
-            {
-                DropCurrentItem();
-            }
-        }
 
         float speed;
         GetInput(out speed);
@@ -418,7 +316,7 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-        if (!IsDead && mIsControlEnabled)
+        if (mIsControlEnabled)
         {
             // Interact with the item
             if (mInteractItem != null && Input.GetKeyDown(KeyCode.F))

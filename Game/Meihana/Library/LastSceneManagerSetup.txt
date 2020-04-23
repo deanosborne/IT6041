@@ -4,10 +4,18 @@ sceneSetups:
   isActive: 0
   isSubScene: 0
 - path: Assets/Level1.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Level1A.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
-- path: Assets/Level2.unity
+- path: Assets/Level1B.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Level 2.unity
   isLoaded: 0
   isActive: 0
   isSubScene: 0

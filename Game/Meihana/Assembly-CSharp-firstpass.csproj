@@ -80,9 +80,6 @@
     <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\VirtualInput.cs" />
     <Compile Include="Assets\Standard Assets\Scripts\Axe.cs" />
     <Compile Include="Assets\Standard Assets\Scripts\Crate.cs" />
-    <Compile Include="Assets\Standard Assets\Scripts\DamageSource.cs" />
-    <Compile Include="Assets\Standard Assets\Scripts\FirstAid.cs" />
-    <Compile Include="Assets\Standard Assets\Scripts\Food.cs" />
     <Compile Include="Assets\Standard Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Standard Assets\Scripts\Gem.cs" />
     <Compile Include="Assets\Standard Assets\Scripts\HUD.cs" />
@@ -97,6 +94,11 @@
     <Compile Include="Assets\Standard Assets\Scripts\Key.cs" />
     <Compile Include="Assets\Standard Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Standard Assets\Scripts\PlayerFollow.cs" />
+    <Compile Include="Assets\Standard Assets\Scripts\Questing\CollectionGoal.cs" />
+    <Compile Include="Assets\Standard Assets\Scripts\Questing\Goal.cs" />
+    <Compile Include="Assets\Standard Assets\Scripts\Questing\Quest.cs" />
+    <Compile Include="Assets\Standard Assets\Scripts\Questing\QuestGiver.cs" />
+    <Compile Include="Assets\Standard Assets\Scripts\Questing\TutorialQuest1.cs" />
     <Compile Include="Assets\Standard Assets\Scripts\Sheep.cs" />
     <Compile Include="Assets\Standard Assets\Scripts\TutorialEnd.cs" />
     <Compile Include="Assets\Standard Assets\Utility\ActivateTrigger.cs" />
