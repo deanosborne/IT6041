@@ -19,6 +19,7 @@ public class PlayerController : MonoBehaviour
 
     private CharacterController m_characterController;
 
+    public bool hidemouse;
 
     private InventoryItemBase mCurrentItem = null;
 
@@ -72,6 +73,7 @@ public class PlayerController : MonoBehaviour
     private float m_NextStep;
     private bool m_Jumping;
     private AudioSource m_AudioSource;
+    public float resources;
 
     // Use this for initialization
     void Start()
@@ -316,6 +318,20 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Z))
+        {
+            hidemouse = !hidemouse;
+        }
+        if (hidemouse == true)
+        {
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
+        }
+        if (hidemouse == false)
+        {
+            Cursor.visible = false;
+            Cursor.lockState = CursorLockMode.Locked;
+        }
         if (mIsControlEnabled)
         {
             // Interact with the item
@@ -505,4 +521,6 @@ public class PlayerController : MonoBehaviour
     {
         m_MouseLook.LookRotation(transform, m_Camera.transform);
     }
+
+
 }
