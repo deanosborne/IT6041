@@ -5,6 +5,7 @@
 /// </summary>
 public class Item : MonoBehaviour
 {
+    public Sprite icon1;
     /// <summary>
     /// Is run when another trigger enters this gameobjects trigger
     /// </summary>

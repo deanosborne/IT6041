@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 23965412710035950}
   - component: {fileID: 65723291376472950}
   - component: {fileID: 114559790400671770}
+  - component: {fileID: 7457235251594619954}
   m_Layer: 0
   m_Name: Gem
   m_TagString: Untagged
@@ -103,14 +104,20 @@ MonoBehaviour:
   m_GameObject: {fileID: 1623027194275334}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e34d78b822635ab43902bdf063c5ed6f, type: 3}
+  m_Script: {fileID: 11500000, guid: bbc721c96fce0f74fa6d4015a6a410c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Name: Red Gem
-  Image: {fileID: 21300000, guid: 0819b1b381cb10548aa334239d55801b, type: 3}
-  InteractText: Press F to pickup the gem
-  ItemType: 0
-  PickPosition: {x: -0.00014, y: 0.00091, z: 0.00124}
-  PickRotation: {x: -193.947, y: -28.52802, z: -133.821}
-  DropRotation: {x: 0, y: 0, z: 0}
-  UseItemAfterPickup: 0
+  icon1: {fileID: 21300000, guid: 0819b1b381cb10548aa334239d55801b, type: 3}
+--- !u!114 &7457235251594619954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1623027194275334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b90172e86c39c9428e4ad66522c460a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  icon1: {fileID: 21300000, guid: 0819b1b381cb10548aa334239d55801b, type: 3}

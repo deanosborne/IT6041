@@ -78,6 +78,8 @@ public class QuestUI : MonoBehaviour
     /// </summary>
     public Text itemList;
 
+    public Image icon1;
+
     /// <summary>
     /// The prefab of a compassArrow
     /// </summary>
@@ -515,6 +517,8 @@ public class QuestUI : MonoBehaviour
                     if (item != null)
                     {
                         itemList.text += item.name.ToString() + "\n";
+                        icon1.sprite = item.icon1;
+                        icon1.enabled = true;
                     }
                     else
                     {
@@ -544,11 +548,11 @@ public class QuestUI : MonoBehaviour
                         if (cUI.amountDone.text == cUI.totalAmount.text) // if a criteria has been completed.
                         {
                             cUI.amountDone.gameObject.SetActive(false); // disable extra text and the  "/"
-                            cUI.totalAmount.text = "Completed"; // change totalamount to say completed //  TODO:: test if this works with several quests.
+                            cUI.totalAmount.text = "Done"; // change totalamount to say completed //  TODO:: test if this works with several quests.
                             cUI.totalAmount.color = Color.green; // change the colour of the word
                             RectTransform rt = cUI.totalAmount.GetComponent<RectTransform>();
                             rt.sizeDelta = new Vector2(100, 16); // make room for the word completed
-                            rt.localPosition = new Vector3(rt.localPosition.x + 15, rt.localPosition.y, rt.localPosition.z); // move it over so "completed" looks a little better
+                            rt.localPosition = new Vector3(rt.localPosition.x + 5, rt.localPosition.y, rt.localPosition.z); // move it over so "completed" looks a little better
 
                             cUI.criteriaName.text = cUI.criteria.criteriaName;
                             cUI.criteriaType.text = cUI.criteria.type.ToString();
@@ -1203,7 +1207,7 @@ public class QuestUI : MonoBehaviour
     {
         if (info.criteria && info.player)
         {
-            AddOnSreenMsg(5f, info.criteria.criteriaName + " " + info.criteria.playerProgression[info.player] + "/" + info.criteria.amount, 15, Color.white);
+            AddOnSreenMsg(5f, " " + info.criteria.playerProgression[info.player] + "/" + info.criteria.amount, 15, Color.white);
         }
     }
 
