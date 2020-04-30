@@ -73,7 +73,7 @@
     <Compile Include="Assets\CustomQuest\Assets\Scripts\Editor\QuestEditor.cs" />
     <Compile Include="Assets\CustomQuest\Assets\Scripts\Editor\RewardPrefabDeleteWindow.cs" />
     <Compile Include="Assets\CustomQuest\Assets\Scripts\Editor\SettingsPopUp.cs" />
-    <Compile Include="Assets\LowPolyWater_Pack\Scripts\Editor\GeneratePlane.cs" />
+    <Compile Include="Assets\SceneAssets\LowPolyWater_Pack\Scripts\Editor\GeneratePlane.cs" />
     <Reference Include="UnityEditor.TestRunner">
       <HintPath>F:/Users/imdea/Desktop/UNI/FINALPROJECT/IT6041/Game/Meihana/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
