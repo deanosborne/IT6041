@@ -39,30 +39,6 @@ namespace MeihanaUI
             item.Items.Add(content);
             this.Items.Add(item);
 
-            //Page1 Page
-            item = new FlyoutItem() { Title = "Page1" };
-            content = new ShellContent();
-            content.Title = "Page1";
-            content.Content = navigationService.GetPageWithBindingContext(typeof(AboutUsViewModel), string.Empty, string.Empty);
-            item.Items.Add(content);
-            this.Items.Add(item);
-            //Page2 Page
-            item = new FlyoutItem() { Title = "Page2" };
-            content = new ShellContent();
-            content.Title = "Page2";
-            content.Content = navigationService.GetPageWithBindingContext(typeof(AboutUsViewModel), string.Empty, string.Empty);
-            item.Items.Add(content);
-            this.Items.Add(item);
-
-            //Page3 Page
-            item = new FlyoutItem() { Title = "Page3" };
-            content = new ShellContent();
-            content.Title = "Page3";
-            content.Content = navigationService.GetPageWithBindingContext(typeof(AboutUsViewModel), string.Empty, string.Empty);
-            item.Items.Add(content);
-            this.Items.Add(item);
-
-
             //Logout Menu
             MenuItem logout = new MenuItem() { Text = "Logout", Command = new Command(GoToLogout) };
             this.Items.Add(logout);
@@ -99,8 +75,6 @@ namespace MeihanaUI
             Routing.RegisterRoute("empty", typeof(EmptyCartPage));
         }
 
-
-
         void GoToLogout()
         {
             Preferences.Set("email", "");
@@ -121,7 +95,6 @@ namespace MeihanaUI
         {
             CheckInternet();
         }
-
 
         static bool onErrorPage;
         private static void CheckInternet()

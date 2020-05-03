@@ -79,9 +79,6 @@
     <PackageReference Include="Syncfusion.Xamarin.SfListView">
       <Version>17.2.0.46</Version>
     </PackageReference>
-    <PackageReference Include="Syncfusion.Xamarin.SfNavigationDrawer">
-      <Version>17.2.0.46</Version>
-    </PackageReference>
     <PackageReference Include="Syncfusion.Xamarin.SfRating">
       <Version>17.2.0.46</Version>
     </PackageReference>
@@ -674,9 +671,6 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable-xxxhdpi\WristWatch3.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\hamburger_icon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

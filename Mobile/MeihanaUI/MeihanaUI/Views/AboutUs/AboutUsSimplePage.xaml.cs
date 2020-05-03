@@ -13,11 +13,8 @@ namespace MeihanaUI.Views.AboutUs
         /// <summary>
         /// Initializes a new instance of the <see cref="T:MeihanaUI.Views.AboutUs.AboutUsSimplePage"/> class.
         /// </summary>
-        /// 
-
         public AboutUsSimplePage()
         {
-
             this.InitializeComponent();
         }
     }

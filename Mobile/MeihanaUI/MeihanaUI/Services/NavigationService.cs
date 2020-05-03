@@ -44,7 +44,7 @@ namespace MeihanaUI.Services
             }
             if (!replaceView)
             {
-                await CurrentApplication.MainPage.Navigation.PushAsync(GetPageWithBindingContext(type, parameterName, parameterValue), false);
+                await CurrentApplication.MainPage.Navigation.PushAsync(GetPageWithBindingContext(type, parameterName, parameterValue), true);
             }
             else
             {

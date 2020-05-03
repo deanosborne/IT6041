@@ -122,7 +122,7 @@ namespace MeihanaUI.ViewModels.Login
         /// <param name="obj">The Object</param>
         private async void SignUpClicked(object obj)
         {
-            navigationService.NavigateTo(typeof(SignUpPageViewModel), string.Empty, string.Empty, true);
+            navigationService.NavigateTo(typeof(SignUpPageViewModel), string.Empty, string.Empty, false);
             //await Application.Current.MainPage.Navigation.PushAsync(new SimpleSignUpPage());
         }
 

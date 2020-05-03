@@ -19,7 +19,7 @@ namespace MeihanaUI.ViewModels.Login
 
         #region Property
 
-        
+        /// <summary>
         /// Gets or sets the property that bounds with an entry that gets the email ID from user in the login page.
         /// </summary>
         public string Email
