@@ -130,18 +130,18 @@ namespace MeihanaUI.ViewModels.Ecommerce
             Category category = attachedObject as Category;
             if (category == null && attachedObject is string)
             {
-                navigationService.NavigateTo(typeof(CatalogPageViewModel), "selectedCategory", attachedObject as string);
+                navigationService.NavigateTo(typeof(CatalogPageViewModel), "selectedCategory", attachedObject as string, true);
                 return;
             }
             else if (category != null)
             {
                 if (isMainCategory)
                 {
-                    navigationService.NavigateTo(typeof(CategoryPageViewModel), "selectedCategory", category.Name);
+                    navigationService.NavigateTo(typeof(CategoryPageViewModel), "selectedCategory", category.Name, true);
                 }
                 else
                 {
-                    navigationService.NavigateTo(typeof(CatalogPageViewModel), "selectedCategory", category.Name);
+                    navigationService.NavigateTo(typeof(CatalogPageViewModel), "selectedCategory", category.Name, true);
                 }
                 return;
             }

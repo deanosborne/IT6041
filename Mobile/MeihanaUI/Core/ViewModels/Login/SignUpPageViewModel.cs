@@ -1,5 +1,5 @@
 ﻿
-
+using MeihanaUI.Core.Services;
 using MeihanaUI.Core.Helper;
 
 namespace MeihanaUI.ViewModels.Login
@@ -16,7 +16,9 @@ namespace MeihanaUI.ViewModels.Login
         private string password;
 
         private string confirmPassword;
+        IDialogService dialogService;
 
+        INavigationService navigationService;
         #endregion
 
         #region Constructor
@@ -24,8 +26,10 @@ namespace MeihanaUI.ViewModels.Login
         /// <summary>
         /// Initializes a new instance for the <see cref="SignUpPageViewModel" /> class.
         /// </summary>
-        public SignUpPageViewModel()
+        public SignUpPageViewModel(IDialogService dialog, INavigationService navigation)
         {
+            dialogService = dialog;
+            navigationService = navigation;
             this.LoginCommand = new Command(this.LoginClicked);
             this.SignUpCommand = new Command(this.SignUpClicked);
         }
@@ -106,7 +110,7 @@ namespace MeihanaUI.ViewModels.Login
         /// <param name="obj">The Object</param>
         private void LoginClicked(object obj)
         {
-            // Do something
+            navigationService.NavigateTo(typeof(LoginPageViewModel), string.Empty, string.Empty, false);
         }
 
         /// <summary>

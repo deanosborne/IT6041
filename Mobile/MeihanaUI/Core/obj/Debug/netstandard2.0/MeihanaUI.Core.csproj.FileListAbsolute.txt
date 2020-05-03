@@ -1,9 +1,0 @@
-C:\Users\imdea\Downloads\MeihanaUI\Core\bin\Debug\netstandard2.0\MeihanaUI.Core.deps.json
-C:\Users\imdea\Downloads\MeihanaUI\Core\bin\Debug\netstandard2.0\MeihanaUI.Core.dll
-C:\Users\imdea\Downloads\MeihanaUI\Core\bin\Debug\netstandard2.0\MeihanaUI.Core.pdb
-C:\Users\imdea\Downloads\MeihanaUI\Core\obj\Debug\netstandard2.0\MeihanaUI.Core.csprojAssemblyReference.cache
-C:\Users\imdea\Downloads\MeihanaUI\Core\obj\Debug\netstandard2.0\MeihanaUI.Core.AssemblyInfoInputs.cache
-C:\Users\imdea\Downloads\MeihanaUI\Core\obj\Debug\netstandard2.0\MeihanaUI.Core.AssemblyInfo.cs
-C:\Users\imdea\Downloads\MeihanaUI\Core\obj\Debug\netstandard2.0\XamlC.stamp
-C:\Users\imdea\Downloads\MeihanaUI\Core\obj\Debug\netstandard2.0\MeihanaUI.Core.dll
-C:\Users\imdea\Downloads\MeihanaUI\Core\obj\Debug\netstandard2.0\MeihanaUI.Core.pdb

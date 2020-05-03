@@ -1,5 +1,8 @@
 using Xamarin.Forms.Internals;
 using Xamarin.Forms.Xaml;
+using Syncfusion.SfNavigationDrawer.XForms;
+using System;
+using Xamarin.Forms;
 
 namespace MeihanaUI.Views.Ecommerce
 {

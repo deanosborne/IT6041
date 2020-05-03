@@ -309,11 +309,11 @@ namespace MeihanaUI.ViewModels.Ecommerce
 
             if(product == null && attachedObject is string)
             {
-                navigationService.NavigateTo(typeof(DetailPageViewModel), "selectedProduct", attachedObject as string);
+                navigationService.NavigateTo(typeof(DetailPageViewModel), "selectedProduct", attachedObject as string, true);
                 return;
             }
 
-            navigationService.NavigateTo(typeof(DetailPageViewModel), "selectedProduct", product.Id.ToString());
+            navigationService.NavigateTo(typeof(DetailPageViewModel), "selectedProduct", product.Id.ToString(), true);
         }
 
         /// <summary>
