@@ -1,0 +1,361 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.0/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.0": {},
+    ".NETStandard,Version=v2.0/": {
+      "App5/1.0.0": {
+        "dependencies": {
+          "Autofac": "5.1.4",
+          "NETStandard.Library": "2.0.3",
+          "Syncfusion.Xamarin.Buttons": "17.2.0.46",
+          "Syncfusion.Xamarin.Cards": "17.2.0.46",
+          "Syncfusion.Xamarin.Core": "17.2.0.46",
+          "Syncfusion.Xamarin.SfComboBox": "17.2.0.46",
+          "Syncfusion.Xamarin.SfListView": "17.2.0.46",
+          "Syncfusion.Xamarin.SfRating": "17.2.0.46",
+          "Syncfusion.Xamarin.SfRotator": "17.2.0.46",
+          "Xamarin.Essentials": "1.3.1",
+          "Xamarin.Forms": "4.3.0.908675"
+        },
+        "runtime": {
+          "App5.dll": {}
+        }
+      },
+      "Autofac/5.1.4": {
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "1.1.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Autofac.dll": {
+            "assemblyVersion": "5.1.4.0",
+            "fileVersion": "5.1.4.0"
+          }
+        }
+      },
+      "Microsoft.Bcl.AsyncInterfaces/1.1.0": {
+        "dependencies": {
+          "System.Threading.Tasks.Extensions": "4.5.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "4.700.19.56404"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "NETStandard.Library/2.0.3": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "Syncfusion.Licensing/17.2.0.46": {
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.Licensing.dll": {
+            "assemblyVersion": "17.2.0.46",
+            "fileVersion": "17.2.0.46"
+          }
+        }
+      },
+      "Syncfusion.Xamarin.Buttons/17.2.0.46": {
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "17.2.0.46",
+          "Xamarin.Forms": "4.3.0.908675"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.Buttons.XForms.dll": {
+            "assemblyVersion": "17.2451.0.46",
+            "fileVersion": "17.2451.0.46"
+          }
+        }
+      },
+      "Syncfusion.Xamarin.Cards/17.2.0.46": {
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "17.2.0.46",
+          "Xamarin.Forms": "4.3.0.908675"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.Cards.XForms.dll": {
+            "assemblyVersion": "17.2451.0.46",
+            "fileVersion": "17.2451.0.46"
+          }
+        }
+      },
+      "Syncfusion.Xamarin.Core/17.2.0.46": {
+        "dependencies": {
+          "Syncfusion.Licensing": "17.2.0.46"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.Core.XForms.dll": {
+            "assemblyVersion": "17.2451.0.46",
+            "fileVersion": "17.2451.0.46"
+          }
+        }
+      },
+      "Syncfusion.Xamarin.DataSource/17.2.0.46": {
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.DataSource.Portable.dll": {
+            "assemblyVersion": "17.2451.0.46",
+            "fileVersion": "17.2451.0.46"
+          }
+        }
+      },
+      "Syncfusion.Xamarin.GridCommon/17.2.0.46": {
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.GridCommon.Portable.dll": {
+            "assemblyVersion": "17.2451.0.46",
+            "fileVersion": "17.2451.0.46"
+          }
+        }
+      },
+      "Syncfusion.Xamarin.SfComboBox/17.2.0.46": {
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "17.2.0.46",
+          "Xamarin.Forms": "4.3.0.908675"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.SfComboBox.XForms.dll": {
+            "assemblyVersion": "17.2451.0.46",
+            "fileVersion": "17.2451.0.46"
+          }
+        }
+      },
+      "Syncfusion.Xamarin.SfListView/17.2.0.46": {
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "17.2.0.46",
+          "Syncfusion.Xamarin.DataSource": "17.2.0.46",
+          "Syncfusion.Xamarin.GridCommon": "17.2.0.46",
+          "Xamarin.Forms": "4.3.0.908675"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.SfListView.XForms.dll": {
+            "assemblyVersion": "17.2451.0.46",
+            "fileVersion": "17.2451.0.46"
+          }
+        }
+      },
+      "Syncfusion.Xamarin.SfRating/17.2.0.46": {
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "17.2.0.46",
+          "Xamarin.Forms": "4.3.0.908675"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.SfRating.XForms.dll": {
+            "assemblyVersion": "17.2451.0.46",
+            "fileVersion": "17.2451.0.46"
+          }
+        }
+      },
+      "Syncfusion.Xamarin.SfRotator/17.2.0.46": {
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "17.2.0.46",
+          "Xamarin.Forms": "4.3.0.908675"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.SfRotator.XForms.dll": {
+            "assemblyVersion": "17.2451.0.46",
+            "fileVersion": "17.2451.0.46"
+          }
+        }
+      },
+      "System.Numerics.Vectors/4.5.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Numerics.Vectors.dll": {
+            "assemblyVersion": "4.1.4.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+        "runtime": {
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "assemblyVersion": "4.0.4.1",
+            "fileVersion": "4.6.26919.2"
+          }
+        }
+      },
+      "System.Threading.Tasks.Extensions/4.5.2": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {
+            "assemblyVersion": "4.2.0.0",
+            "fileVersion": "4.6.27129.4"
+          }
+        }
+      },
+      "Xamarin.Essentials/1.3.1": {
+        "dependencies": {
+          "System.Numerics.Vectors": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Essentials.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Xamarin.Forms/4.3.0.908675": {
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.Core.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "4.3.0.336"
+          },
+          "lib/netstandard2.0/Xamarin.Forms.Platform.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "4.3.0.336"
+          },
+          "lib/netstandard2.0/Xamarin.Forms.Xaml.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "4.3.0.336"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "App5/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Autofac/5.1.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MsAEZJNCBTwZ21cBaFosWvR+zNG3VXB8y8qn3HmYl6m9iR/CDqDQykqBzfApbqj3N1l2I4qVBPA2exIdHJvANQ==",
+      "path": "autofac/5.1.4",
+      "hashPath": "autofac.5.1.4.nupkg.sha512"
+    },
+    "Microsoft.Bcl.AsyncInterfaces/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1Am6l4Vpn3/K32daEqZI+FFr96OlZkgwK2LcT3pZ2zWubR5zTPW3/FkO1Rat9kb7oQOa4rxgl9LJHc5tspCWfg==",
+      "path": "microsoft.bcl.asyncinterfaces/1.1.0",
+      "hashPath": "microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "path": "netstandard.library/2.0.3",
+      "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "Syncfusion.Licensing/17.2.0.46": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DopVyBh15509RLdxcL004uqafV69QmhXLnpSEwFy0G0Y5cikKgemIdWkeLRM6Iz/KiMiKYyMNR0X7wiCHp4W/A==",
+      "path": "syncfusion.licensing/17.2.0.46",
+      "hashPath": "syncfusion.licensing.17.2.0.46.nupkg.sha512"
+    },
+    "Syncfusion.Xamarin.Buttons/17.2.0.46": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-s99ycY6Ib6EjoLZT9DFHUQ9pWzN+cqfqmEZfdcBTcNjm9u2fTm3j7YOyK/KnPokx8WGwXNZbGnYMLa+8930hEg==",
+      "path": "syncfusion.xamarin.buttons/17.2.0.46",
+      "hashPath": "syncfusion.xamarin.buttons.17.2.0.46.nupkg.sha512"
+    },
+    "Syncfusion.Xamarin.Cards/17.2.0.46": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CPh3//0pcvdsBaLdlLpUeZ6lNEOaZT7qPS7SeRVRwVa9qMu1Qi3zoSO8oSgQQnznwSjt5BHyy9IclBfn0zLjRA==",
+      "path": "syncfusion.xamarin.cards/17.2.0.46",
+      "hashPath": "syncfusion.xamarin.cards.17.2.0.46.nupkg.sha512"
+    },
+    "Syncfusion.Xamarin.Core/17.2.0.46": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4o9KuSs2XmtPg+d7YpQerMLthFn3M4Qc1MiErpntoHwPnLZrDbFYNxAAbONIxpuybR0tudwEInaUEZtwqihP2A==",
+      "path": "syncfusion.xamarin.core/17.2.0.46",
+      "hashPath": "syncfusion.xamarin.core.17.2.0.46.nupkg.sha512"
+    },
+    "Syncfusion.Xamarin.DataSource/17.2.0.46": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+Yz0xOH68Au5OwWLKSWxqiIAZTpBv9O/ReFFd5q/RifmqyhVr6mh/NHG2ra2YIh777aIMh15LMAMOCPfKUTj0A==",
+      "path": "syncfusion.xamarin.datasource/17.2.0.46",
+      "hashPath": "syncfusion.xamarin.datasource.17.2.0.46.nupkg.sha512"
+    },
+    "Syncfusion.Xamarin.GridCommon/17.2.0.46": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uyc0OSE/+ckZaVDhJFFmqIMLcovQO/8m5IMTvb0JVTpC3BR+MDvaFtvaUd+nZhNPDfhklLponT6oY7xVopAMMQ==",
+      "path": "syncfusion.xamarin.gridcommon/17.2.0.46",
+      "hashPath": "syncfusion.xamarin.gridcommon.17.2.0.46.nupkg.sha512"
+    },
+    "Syncfusion.Xamarin.SfComboBox/17.2.0.46": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1wF8bTBAQsxz4MVZtKQEQ4F9RaLiD360zOrNC8hFH8F5APhEKyby8ezIlp0enKfSRQQEn7t7lPyVUrc4OTOOag==",
+      "path": "syncfusion.xamarin.sfcombobox/17.2.0.46",
+      "hashPath": "syncfusion.xamarin.sfcombobox.17.2.0.46.nupkg.sha512"
+    },
+    "Syncfusion.Xamarin.SfListView/17.2.0.46": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+DHiFBtzwilpmaE/e6Iyrw+9AgQmU5Cvmq0gfL7HBJU8V2A+z4v8QdCErdMRVQVM3UTSlFT/LIWfPPzFPHQG6w==",
+      "path": "syncfusion.xamarin.sflistview/17.2.0.46",
+      "hashPath": "syncfusion.xamarin.sflistview.17.2.0.46.nupkg.sha512"
+    },
+    "Syncfusion.Xamarin.SfRating/17.2.0.46": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oTHpEc6uqNNQTwz4SQYJ2ZCcFNaC0KrQtBUOfgV3yZl8/pvLKqv/e8P381mnfZ2qiqWE0I8stMTgFD8c9PA0ug==",
+      "path": "syncfusion.xamarin.sfrating/17.2.0.46",
+      "hashPath": "syncfusion.xamarin.sfrating.17.2.0.46.nupkg.sha512"
+    },
+    "Syncfusion.Xamarin.SfRotator/17.2.0.46": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zDFUG6755TRxlLBAV+IID0YhQfmlyelsBRptkLWEhNpeT5kuRdsdcQIa8JWOrnqRdnaBYXWX5nrdOU2XbrwZUA==",
+      "path": "syncfusion.xamarin.sfrotator/17.2.0.46",
+      "hashPath": "syncfusion.xamarin.sfrotator.17.2.0.46.nupkg.sha512"
+    },
+    "System.Numerics.Vectors/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
+      "path": "system.numerics.vectors/4.5.0",
+      "hashPath": "system.numerics.vectors.4.5.0.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wprSFgext8cwqymChhrBLu62LMg/1u92bU+VOwyfBimSPVFXtsNqEWC92Pf9ofzJFlk4IHmJA75EDJn1b2goAQ==",
+      "path": "system.runtime.compilerservices.unsafe/4.5.2",
+      "hashPath": "system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512"
+    },
+    "System.Threading.Tasks.Extensions/4.5.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BG/TNxDFv0svAzx8OiMXDlsHfGw623BZ8tCXw4YLhDFDvDhNUEV58jKYMGRnkbJNm7c3JNNJDiN7JBMzxRBR2w==",
+      "path": "system.threading.tasks.extensions/4.5.2",
+      "hashPath": "system.threading.tasks.extensions.4.5.2.nupkg.sha512"
+    },
+    "Xamarin.Essentials/1.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+51728AdZ/qtABGvcIaNXgEoL2jAtxAXLHS8PvGCP0pb6n7twBqYpfgkmwHYVgu+U99szgtL+Jot8L+OXorPcA==",
+      "path": "xamarin.essentials/1.3.1",
+      "hashPath": "xamarin.essentials.1.3.1.nupkg.sha512"
+    },
+    "Xamarin.Forms/4.3.0.908675": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kXrbXKJvXYF4cKjs1Jsb+pQFEnFGl0AONYSeABjgOJqN/o5Y4zC0XXQ68xiUI81PKQTuRB5F3oDom2t5ccJDZw==",
+      "path": "xamarin.forms/4.3.0.908675",
+      "hashPath": "xamarin.forms.4.3.0.908675.nupkg.sha512"
+    }
+  }
+}
