@@ -1,10 +1,28 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class GameManager : MonoBehaviour {
+public class GameManager : Singleton<GameManager> {
 
-    public static GameManager Instance = null;                         
+    public static GameManager Instance = null;
+
+    private float _currentlv;
+
+
+
+    public float CurrentLv
+    {
+        get { return _currentlv; }
+        set { _currentlv = value; }
+    }
+
+
+    void Start()
+    {
+        CurrentLv = 1;
+
+    }
 
     void Awake()
     {
