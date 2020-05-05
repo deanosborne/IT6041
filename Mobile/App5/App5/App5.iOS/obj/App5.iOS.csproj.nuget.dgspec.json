@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\imdea\\source\\repos\\App5\\App5\\App5.iOS\\App5.iOS.csproj": {}
+    "F:\\Users\\imdea\\Desktop\\UNI\\FINALPROJECT\\IT6041\\Mobile\\App5\\App5\\App5.iOS\\App5.iOS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\imdea\\source\\repos\\App5\\App5\\App5.iOS\\App5.iOS.csproj": {
+    "F:\\Users\\imdea\\Desktop\\UNI\\FINALPROJECT\\IT6041\\Mobile\\App5\\App5\\App5.iOS\\App5.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\imdea\\source\\repos\\App5\\App5\\App5.iOS\\App5.iOS.csproj",
+        "projectUniqueName": "F:\\Users\\imdea\\Desktop\\UNI\\FINALPROJECT\\IT6041\\Mobile\\App5\\App5\\App5.iOS\\App5.iOS.csproj",
         "projectName": "App5.iOS",
-        "projectPath": "C:\\Users\\imdea\\source\\repos\\App5\\App5\\App5.iOS\\App5.iOS.csproj",
+        "projectPath": "F:\\Users\\imdea\\Desktop\\UNI\\FINALPROJECT\\IT6041\\Mobile\\App5\\App5\\App5.iOS\\App5.iOS.csproj",
         "packagesPath": "C:\\Users\\imdea\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\imdea\\source\\repos\\App5\\App5\\App5.iOS\\obj\\",
+        "outputPath": "F:\\Users\\imdea\\Desktop\\UNI\\FINALPROJECT\\IT6041\\Mobile\\App5\\App5\\App5.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -33,8 +33,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "C:\\Users\\imdea\\source\\repos\\App5\\App5\\App5\\App5.csproj": {
-                "projectPath": "C:\\Users\\imdea\\source\\repos\\App5\\App5\\App5\\App5.csproj"
+              "F:\\Users\\imdea\\Desktop\\UNI\\FINALPROJECT\\IT6041\\Mobile\\App5\\App5\\App5\\App5.csproj": {
+                "projectPath": "F:\\Users\\imdea\\Desktop\\UNI\\FINALPROJECT\\IT6041\\Mobile\\App5\\App5\\App5\\App5.csproj"
               }
             }
           }
@@ -46,6 +46,10 @@
             "Autofac": {
               "target": "Package",
               "version": "[5.1.4, )"
+            },
+            "Microsoft.Azure.Mobile.Client": {
+              "target": "Package",
+              "version": "[4.1.2, )"
             },
             "Syncfusion.Xamarin.Buttons": {
               "target": "Package",
@@ -64,6 +68,14 @@
               "version": "[17.2.0.46, )"
             },
             "Syncfusion.Xamarin.SfListView": {
+              "target": "Package",
+              "version": "[17.2.0.46, )"
+            },
+            "Syncfusion.Xamarin.SfMaps": {
+              "target": "Package",
+              "version": "[17.2.0.46, )"
+            },
+            "Syncfusion.Xamarin.SfNavigationDrawer": {
               "target": "Package",
               "version": "[17.2.0.46, )"
             },
@@ -98,14 +110,14 @@
         }
       }
     },
-    "C:\\Users\\imdea\\source\\repos\\App5\\App5\\App5\\App5.csproj": {
+    "F:\\Users\\imdea\\Desktop\\UNI\\FINALPROJECT\\IT6041\\Mobile\\App5\\App5\\App5\\App5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\imdea\\source\\repos\\App5\\App5\\App5\\App5.csproj",
+        "projectUniqueName": "F:\\Users\\imdea\\Desktop\\UNI\\FINALPROJECT\\IT6041\\Mobile\\App5\\App5\\App5\\App5.csproj",
         "projectName": "App5",
-        "projectPath": "C:\\Users\\imdea\\source\\repos\\App5\\App5\\App5\\App5.csproj",
+        "projectPath": "F:\\Users\\imdea\\Desktop\\UNI\\FINALPROJECT\\IT6041\\Mobile\\App5\\App5\\App5\\App5.csproj",
         "packagesPath": "C:\\Users\\imdea\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\imdea\\source\\repos\\App5\\App5\\App5\\obj\\",
+        "outputPath": "F:\\Users\\imdea\\Desktop\\UNI\\FINALPROJECT\\IT6041\\Mobile\\App5\\App5\\App5\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -141,6 +153,10 @@
               "target": "Package",
               "version": "[5.1.4, )"
             },
+            "Microsoft.Azure.Mobile.Client": {
+              "target": "Package",
+              "version": "[4.1.2, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
@@ -164,6 +180,14 @@
               "version": "[17.2.0.46, )"
             },
             "Syncfusion.Xamarin.SfListView": {
+              "target": "Package",
+              "version": "[17.2.0.46, )"
+            },
+            "Syncfusion.Xamarin.SfMaps": {
+              "target": "Package",
+              "version": "[17.2.0.46, )"
+            },
+            "Syncfusion.Xamarin.SfNavigationDrawer": {
               "target": "Package",
               "version": "[17.2.0.46, )"
             },

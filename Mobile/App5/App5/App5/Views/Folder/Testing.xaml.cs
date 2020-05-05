@@ -1,0 +1,33 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
+
+namespace App5.Views.Folder
+{
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class Testing : ContentPage
+    {
+        public Testing()
+        {
+            InitializeComponent();
+        }
+
+        async void AddNewUser_Clicked(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new NewUserPage());
+        }
+
+        protected override async void OnAppearing()
+        {
+            base.OnAppearing();
+
+            var users = await Users.ReadUser();
+            userListView.ItemsSource = users;
+        }
+    }
+}

@@ -14,6 +14,7 @@ namespace App5
             InitializeComponent();
 
             MainPage = new NavigationPage(new SimpleLoginPage());
+
         }
 
         protected override void OnStart()

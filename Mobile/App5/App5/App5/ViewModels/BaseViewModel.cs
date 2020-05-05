@@ -6,6 +6,8 @@ using System.Runtime.Serialization;
 using System.Text;
 using Xamarin.Forms.Internals;
 
+using App5.Models;
+
 namespace App5.ViewModels
 {
     /// <summary>
@@ -22,8 +24,43 @@ namespace App5.ViewModels
         /// </summary>
         public event PropertyChangedEventHandler PropertyChanged;
 
-        #endregion
+        bool isBusy = false;
+        public bool IsBusy
+        {
+            get { return isBusy; }
+            set { SetProperty(ref isBusy, value); }
+        }
 
+
+        #endregion
+        string title = string.Empty;
+        public string Title
+        {
+            get { return title; }
+            set { SetProperty(ref title, value); }
+        }
+
+        protected bool SetProperty<T>(ref T backingStore, T value,
+    [CallerMemberName]string propertyName = "",
+    Action onChanged = null)
+        {
+            if (EqualityComparer<T>.Default.Equals(backingStore, value))
+                return false;
+
+            backingStore = value;
+            onChanged?.Invoke();
+            OnPropertyChanged(propertyName);
+            return true;
+        }
+
+        protected void OnPropertyChanged([CallerMemberName] string propertyName = "")
+        {
+            var changed = PropertyChanged;
+            if (changed == null)
+                return;
+
+            changed.Invoke(this, new PropertyChangedEventArgs(propertyName));
+        }
         #region Methods
 
         /// <summary>

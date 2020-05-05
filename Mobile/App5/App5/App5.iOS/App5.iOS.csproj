@@ -131,6 +131,9 @@
     <PackageReference Include="Autofac">
       <Version>5.1.4</Version>
     </PackageReference>
+    <PackageReference Include="Microsoft.Azure.Mobile.Client">
+      <Version>4.1.2</Version>
+    </PackageReference>
     <PackageReference Include="Syncfusion.Xamarin.Buttons">
       <Version>17.2.0.46</Version>
     </PackageReference>
@@ -144,6 +147,12 @@
       <Version>17.2.0.46</Version>
     </PackageReference>
     <PackageReference Include="Syncfusion.Xamarin.SfListView">
+      <Version>17.2.0.46</Version>
+    </PackageReference>
+    <PackageReference Include="Syncfusion.Xamarin.SfMaps">
+      <Version>17.2.0.46</Version>
+    </PackageReference>
+    <PackageReference Include="Syncfusion.Xamarin.SfNavigationDrawer">
       <Version>17.2.0.46</Version>
     </PackageReference>
     <PackageReference Include="Syncfusion.Xamarin.SfRating">
@@ -170,5 +179,8 @@
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\ViewMode.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Pin.png" />
   </ItemGroup>
 </Project>

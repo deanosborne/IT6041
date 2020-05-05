@@ -1,9 +1,15 @@
 FormsViewGroup
+Microsoft.Azure.Mobile.Client
+PCLCrypto
 Syncfusion.Buttons.XForms.Android
 Syncfusion.Cards.XForms.Android
 Syncfusion.Core.XForms.Android
 Syncfusion.SfComboBox.XForms.Android
 Syncfusion.SfListView.XForms.Android
+Syncfusion.SfMaps.Android
+Syncfusion.SfMaps.XForms.Android
+Syncfusion.SfNavigationDrawer.Android
+Syncfusion.SfNavigationDrawer.XForms.Android
 Syncfusion.SfRating.Android
 Syncfusion.SfRating.XForms.Android
 Syncfusion.SfRotator.Android

@@ -11,7 +11,7 @@
     x:Name="categoryPage"
     Title="Categories"
     BackgroundColor="{DynamicResource Gray-White}"
-    NavigationPage.HasNavigationBar="False">
+    NavigationPage.HasNavigationBar="True">
 
     <ContentPage.Resources>
         <ResourceDictionary>

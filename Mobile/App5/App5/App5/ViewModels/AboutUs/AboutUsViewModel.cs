@@ -11,6 +11,7 @@ namespace App5.ViewModels.AboutUs
     [Preserve(AllMembers = true)]
     public class AboutUsViewModel : BaseViewModel
     {
+
         #region Fields
 
         private string productDescription;
@@ -30,6 +31,7 @@ namespace App5.ViewModels.AboutUs
         /// </summary>
         public AboutUsViewModel()
         {
+            Title = "About";
             this.productDescription =
                 "Situated in the heart of Smith-town, Acme Products, Inc., has a long-standing tradition of selling the best products while providing the fastest service on the market. Since 1952, we’ve helped our customers identify their needs, understand their wants, and capture their dreams.";
             this.productIcon = App.BaseImageUrl + "Icon.png";

@@ -7,7 +7,6 @@
              xmlns:themes = "clr-namespace:App5.Themes;assembly=App5"
              x:Class="App5.App">
     <Application.Resources>
-
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
                 <themes:LightTheme />

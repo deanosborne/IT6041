@@ -42,18 +42,18 @@ namespace App5.ViewModels.Forms
         /// Invoked when the Send button is clicked.
         /// </summary>
         /// <param name="obj">The Object</param>
-        private void SendClicked(object obj)
+        private async void SendClicked(object obj)
         {
-            // Do something
+            await Application.Current.MainPage.Navigation.PopModalAsync();
         }
 
         /// <summary>
         /// Invoked when the Sign Up button is clicked.
         /// </summary>
         /// <param name="obj">The Object</param>
-        private void SignUpClicked(object obj)
+        private async void SignUpClicked(object obj)
         {
-            // Do something
+            await Application.Current.MainPage.Navigation.PopModalAsync();
         }
 
         #endregion

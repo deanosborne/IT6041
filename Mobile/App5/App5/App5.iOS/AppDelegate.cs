@@ -1,3 +1,5 @@
+using Syncfusion.SfMaps.XForms.iOS;
+using Syncfusion.XForms.iOS.Cards;
 using Syncfusion.XForms.iOS.ComboBox;
 using Syncfusion.SfRotator.XForms.iOS;
 using Syncfusion.XForms.iOS.Core;
@@ -31,6 +33,8 @@ namespace App5.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             global::Xamarin.Forms.Forms.Init();
+            SfMapsRenderer.Init();
+            SfCardViewRenderer.Init();
             SfComboBoxRenderer.Init();
             SfRotatorRenderer.Init();
             SfGradientViewRenderer.Init();

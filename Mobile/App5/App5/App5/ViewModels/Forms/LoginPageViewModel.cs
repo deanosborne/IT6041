@@ -2,7 +2,7 @@
 using Xamarin.Forms;
 using Xamarin.Forms.Internals;
 using App5.Views.Forms;
-using App5.Views.Article;
+using App5.Views;
 
 namespace App5.ViewModels.Forms
 {
@@ -92,7 +92,7 @@ namespace App5.ViewModels.Forms
         /// <param name="obj">The Object</param>
         private async void LoginClicked(object obj)
         {
-            Application.Current.MainPage = new ArticleWithCommentsPage();
+            Application.Current.MainPage = new MainPage();
         }
 
         /// <summary>
@@ -101,7 +101,7 @@ namespace App5.ViewModels.Forms
         /// <param name="obj">The Object</param>
         private async void SignUpClicked(object obj)
         {
-            await Application.Current.MainPage.Navigation.PushAsync(new SimpleSignUpPage());
+            await Application.Current.MainPage.Navigation.PushModalAsync(new SimpleSignUpPage());
         }
 
         /// <summary>
@@ -110,7 +110,7 @@ namespace App5.ViewModels.Forms
         /// <param name="obj">The Object</param>
         private async void ForgotPasswordClicked(object obj)
         {
-            await Application.Current.MainPage.Navigation.PushAsync(new SimpleForgotPasswordPage());
+            await Application.Current.MainPage.Navigation.PushModalAsync(new SimpleForgotPasswordPage());
             var label = obj as Label;
             label.BackgroundColor = Color.FromHex("#70FFFFFF");
             await Task.Delay(100);
@@ -123,7 +123,7 @@ namespace App5.ViewModels.Forms
         /// <param name="obj">The Object</param>
         private void SocialLoggedIn(object obj)
         {
-            // Do something
+            Application.Current.MainPage = new MainPage();
         }
 
         #endregion
