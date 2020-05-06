@@ -16,20 +16,15 @@
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
         <!-- Implicit styles -->
-        <Style TargetType="{x:Type ListView}">
-            <Setter Property="BackgroundColor"
-                    Value="{StaticResource AppBackgroundColor}" />
-            
-        </Style>
     </ContentPage.Resources>
 
     <ContentPage.ToolbarItems>
-        <ToolbarItem Text="+"
-                     Clicked="OnNoteAddedClicked" />
+        <ToolbarItem  x:Name="btnSignInSignOut" 
+                      Text="Add" 
+                      Clicked="OnSignInSignOut"/>
     </ContentPage.ToolbarItems>
 
     <ListView x:Name="listView"
-              Margin="{StaticResource PageMargin}"
               ItemSelected="OnListViewItemSelected">
         <ListView.ItemTemplate>
             <DataTemplate>

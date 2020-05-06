@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Net.Http;
 using Microsoft.Identity.Client;
 using Xamarin.Forms;
-using App5.Views.Folder;
+using App5.Views.Forms;
 
 namespace App5.Views.Folder
 {
@@ -17,21 +17,23 @@ namespace App5.Views.Folder
             InitializeComponent();
         }
 
-        async void OnSignInSignOut(object sender, EventArgs e)
+                async void OnSignInSignOut(object sender, EventArgs e)
         {
             try
             {
-                if (btnSignInSignOut.Text == "Sign in")
+                if (btnSignInSignOut.Text == "Add")
                 {
                     var userContext = await B2CAuthenticationService.Instance.SignInAsync();
                     UpdateSignInState(userContext);
                     UpdateUserInfo(userContext);
+                    await Application.Current.MainPage.Navigation.PushModalAsync(new SimpleForgotPasswordPage());
                 }
                 else
                 {
                     var userContext = await B2CAuthenticationService.Instance.SignOutAsync();
                     UpdateSignInState(userContext);
                     UpdateUserInfo(userContext);
+                    userContext.IsLoggedOn = false;
                 }
             }
             catch (Exception ex)
@@ -50,7 +52,7 @@ namespace App5.Views.Folder
         {
             try
             {
-                lblApi.Text = $"Calling API {App.ApiEndpoint}";
+
                 var userContext = await B2CAuthenticationService.Instance.SignInAsync();
                 var token = userContext.AccessToken;
 
@@ -62,11 +64,11 @@ namespace App5.Views.Folder
                 string responseString = await response.Content.ReadAsStringAsync();
                 if (response.IsSuccessStatusCode)
                 {
-                    lblApi.Text = $"Response from API {App.ApiEndpoint} | {responseString}";
+
                 }
                 else
                 {
-                    lblApi.Text = $"Error calling API {App.ApiEndpoint} | {responseString}";
+
                 }
             }
             catch (MsalUiRequiredException ex)
@@ -128,17 +130,12 @@ namespace App5.Views.Folder
         void UpdateSignInState(UserContext userContext)
         {
             var isSignedIn = userContext.IsLoggedOn;
-            btnSignInSignOut.Text = isSignedIn ? "Sign out" : "Sign in";
-            btnEditProfile.IsVisible = isSignedIn;
-            btnCallApi.IsVisible = isSignedIn;
-            slUser.IsVisible = isSignedIn;
-            lblApi.Text = "";
+            btnSignInSignOut.Text = isSignedIn ? "Sign out" : "Add";
         }
+
         public void UpdateUserInfo(UserContext userContext)
         {
-            lblName.Text = userContext.Name;
-            lblJob.Text = userContext.JobTitle;
-            lblCity.Text = userContext.City;
         }
+
     }
 }

@@ -7,7 +7,7 @@
              x:Class="App5.Views.Folder.TestLoginPage">
     <ContentPage.ToolbarItems>
         <ToolbarItem  x:Name="btnSignInSignOut" 
-                      Text="Sign in" 
+                      Text="Add" 
                       Clicked="OnSignInSignOut"/>
     </ContentPage.ToolbarItems>
     <ContentPage.Content>

@@ -53,7 +53,7 @@ namespace App5.Views
                         MenuPages.Add(id, new NavigationPage(new ArticleDetailPage()));
                         break;
                     case (int)MenuItemType.Contact:
-                        MenuPages.Add(id, new NavigationPage(new NavigationListCardPage()));
+                        MenuPages.Add(id, new NavigationPage(new ContactUsPage()));
                         break;
                 }
             }
