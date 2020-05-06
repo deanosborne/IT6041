@@ -89,12 +89,15 @@ F:\Users\imdea\Desktop\UNI\FINALPROJECT\IT6041\Mobile\App5\App5\App5.iOS\bin\iPh
 F:\Users\imdea\Desktop\UNI\FINALPROJECT\IT6041\Mobile\App5\App5\App5.iOS\bin\iPhoneSimulator\Debug\Autofac.dll
 F:\Users\imdea\Desktop\UNI\FINALPROJECT\IT6041\Mobile\App5\App5\App5.iOS\bin\iPhoneSimulator\Debug\Autofac.pdb
 F:\Users\imdea\Desktop\UNI\FINALPROJECT\IT6041\Mobile\App5\App5\App5.iOS\bin\iPhoneSimulator\Debug\Microsoft.Azure.Mobile.Client.dll
+F:\Users\imdea\Desktop\UNI\FINALPROJECT\IT6041\Mobile\App5\App5\App5.iOS\bin\iPhoneSimulator\Debug\Microsoft.Identity.Client.dll
 F:\Users\imdea\Desktop\UNI\FINALPROJECT\IT6041\Mobile\App5\App5\App5.iOS\bin\iPhoneSimulator\Debug\Newtonsoft.Json.dll
 F:\Users\imdea\Desktop\UNI\FINALPROJECT\IT6041\Mobile\App5\App5\App5.iOS\bin\iPhoneSimulator\Debug\PCLCrypto.dll
 F:\Users\imdea\Desktop\UNI\FINALPROJECT\IT6041\Mobile\App5\App5\App5.iOS\bin\iPhoneSimulator\Debug\PInvoke.BCrypt.dll
 F:\Users\imdea\Desktop\UNI\FINALPROJECT\IT6041\Mobile\App5\App5\App5.iOS\bin\iPhoneSimulator\Debug\PInvoke.Kernel32.dll
 F:\Users\imdea\Desktop\UNI\FINALPROJECT\IT6041\Mobile\App5\App5\App5.iOS\bin\iPhoneSimulator\Debug\PInvoke.NCrypt.dll
 F:\Users\imdea\Desktop\UNI\FINALPROJECT\IT6041\Mobile\App5\App5\App5.iOS\bin\iPhoneSimulator\Debug\PInvoke.Windows.Core.dll
+F:\Users\imdea\Desktop\UNI\FINALPROJECT\IT6041\Mobile\App5\App5\App5.iOS\bin\iPhoneSimulator\Debug\MvvmHelpers.dll
+F:\Users\imdea\Desktop\UNI\FINALPROJECT\IT6041\Mobile\App5\App5\App5.iOS\bin\iPhoneSimulator\Debug\MvvmHelpers.pdb
 F:\Users\imdea\Desktop\UNI\FINALPROJECT\IT6041\Mobile\App5\App5\App5.iOS\bin\iPhoneSimulator\Debug\Syncfusion.Licensing.dll
 F:\Users\imdea\Desktop\UNI\FINALPROJECT\IT6041\Mobile\App5\App5\App5.iOS\bin\iPhoneSimulator\Debug\Syncfusion.Buttons.XForms.dll
 F:\Users\imdea\Desktop\UNI\FINALPROJECT\IT6041\Mobile\App5\App5\App5.iOS\bin\iPhoneSimulator\Debug\Syncfusion.Buttons.XForms.iOS.dll
@@ -120,6 +123,7 @@ F:\Users\imdea\Desktop\UNI\FINALPROJECT\IT6041\Mobile\App5\App5\App5.iOS\bin\iPh
 F:\Users\imdea\Desktop\UNI\FINALPROJECT\IT6041\Mobile\App5\App5\App5.iOS\bin\iPhoneSimulator\Debug\Syncfusion.SfRotator.XForms.dll
 F:\Users\imdea\Desktop\UNI\FINALPROJECT\IT6041\Mobile\App5\App5\App5.iOS\bin\iPhoneSimulator\Debug\Syncfusion.SfRotator.XForms.iOS.dll
 F:\Users\imdea\Desktop\UNI\FINALPROJECT\IT6041\Mobile\App5\App5\App5.iOS\bin\iPhoneSimulator\Debug\Syncfusion.SfRotator.iOS.dll
+F:\Users\imdea\Desktop\UNI\FINALPROJECT\IT6041\Mobile\App5\App5\App5.iOS\bin\iPhoneSimulator\Debug\System.Security.SecureString.dll
 F:\Users\imdea\Desktop\UNI\FINALPROJECT\IT6041\Mobile\App5\App5\App5.iOS\bin\iPhoneSimulator\Debug\Validation.dll
 F:\Users\imdea\Desktop\UNI\FINALPROJECT\IT6041\Mobile\App5\App5\App5.iOS\bin\iPhoneSimulator\Debug\Xamarin.Essentials.dll
 F:\Users\imdea\Desktop\UNI\FINALPROJECT\IT6041\Mobile\App5\App5\App5.iOS\bin\iPhoneSimulator\Debug\Xamarin.Essentials.pdb

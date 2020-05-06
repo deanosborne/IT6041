@@ -15,6 +15,9 @@ using System.Linq;
 using Foundation;
 using UIKit;
 
+
+using Microsoft.Identity.Client;
+
 namespace App5.iOS
 {
     // The UIApplicationDelegate for the application. This class is responsible for launching the 
@@ -45,6 +48,12 @@ namespace App5.iOS
             LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);
+        }
+
+        public override bool OpenUrl(UIApplication app, NSUrl url, NSDictionary options)
+        {
+            AuthenticationContinuationHelper.SetAuthenticationContinuationEventArgs(url);
+            return base.OpenUrl(app, url, options);
         }
     }
 }

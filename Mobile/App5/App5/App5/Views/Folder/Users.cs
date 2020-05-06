@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Microsoft.WindowsAzure.MobileServices;
+using System.Linq;
+using System.Net;
+using System.Net.Http;
 
 namespace App5.Views.Folder
 {
@@ -13,13 +16,23 @@ public class Users
         public string email { get; set; }
         public string usergroup { get; set; }
 
-        public static MobileServiceClient client = new MobileServiceClient("https://meihana.azurewebsites.net");
+        HttpClient client;
+
+        public Users()
+        {
+            client = new HttpClient
+            {
+                BaseAddress = new Uri($"https://meihana.azurewebsites.net")
+            };
+        }
+
+        public static MobileServiceClient client1 = new MobileServiceClient("https://meihana.azurewebsites.net");
 
         public async Task<bool> SaveUser()
         {
             try
             {
-                await client.GetTable<Users>().InsertAsync(this);
+                await client1.GetTable<Users>().InsertAsync(this);
                 return true;
             }
             catch(MobileServiceInvalidOperationException msioe)
@@ -35,12 +48,35 @@ public class Users
 
         public static async Task<List<Users>> ReadUser()
         {
-            return await client.GetTable<Users>().ToListAsync();
+            return await client1.GetTable<Users>().ToListAsync();
         }
         public override string ToString()
         {
             return $"{name} - {email} - {usergroup}";
 
+        }
+
+        public async Task<bool> ValidateUser(string email, string password)
+        {
+            var result = await client.GetStringAsync($"api/validate?email={email}&password={password}");
+            if (result == "true")
+            {
+                this.email = email;
+                return true;
+            }
+            return false;
+        }
+
+        public async Task<bool> ValidateUserGroup(string email, string password, string usergroup)
+        {
+            var result = await client.GetStringAsync($"api/validate?email={email}&password={password}&usergroup={usergroup}");
+            if (result == "true")
+            {
+                this.email = email;
+                this.usergroup = "none";
+                return true;
+            }
+            return false;
         }
     }
 }

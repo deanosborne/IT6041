@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using App5.Views.Folder;
 
 namespace App5.Views.Folder
 {
@@ -19,7 +20,6 @@ namespace App5.Views.Folder
 
         async void AddNewUser_Clicked(object sender, System.EventArgs e)
         {
-            await Navigation.PushAsync(new NewUserPage());
         }
 
         protected override async void OnAppearing()
@@ -29,5 +29,6 @@ namespace App5.Views.Folder
             var users = await Users.ReadUser();
             userListView.ItemsSource = users;
         }
+
     }
 }

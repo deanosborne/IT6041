@@ -19,6 +19,7 @@ namespace App5.Views
     [DesignTimeVisible(false)]
     public partial class MainPage : MasterDetailPage
     {
+
         Dictionary<int, NavigationPage> MenuPages = new Dictionary<int, NavigationPage>();
         public MainPage()
         {
@@ -52,7 +53,7 @@ namespace App5.Views
                         MenuPages.Add(id, new NavigationPage(new ArticleDetailPage()));
                         break;
                     case (int)MenuItemType.Contact:
-                        MenuPages.Add(id, new NavigationPage(new Testing()));
+                        MenuPages.Add(id, new NavigationPage(new NavigationListCardPage()));
                         break;
                 }
             }

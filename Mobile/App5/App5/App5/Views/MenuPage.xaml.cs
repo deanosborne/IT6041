@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using App5.Views.Folder;
 
 namespace App5.Views
 {
@@ -12,6 +13,7 @@ namespace App5.Views
     [DesignTimeVisible(false)]
     public partial class MenuPage : ContentPage
     {
+
         MainPage RootPage { get => Application.Current.MainPage as MainPage; }
         List<HomeMenuItem> menuItems;
         public MenuPage()

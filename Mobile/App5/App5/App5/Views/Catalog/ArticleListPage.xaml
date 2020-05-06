@@ -33,7 +33,6 @@
     <ContentPage.Content>
         <ScrollView>
             <StackLayout Padding="16" Spacing="16">
-
                 <!--  Header label  -->
                 <Label
                     FontFamily="{StaticResource Montserrat-SemiBold}"

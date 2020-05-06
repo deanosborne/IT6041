@@ -1,5 +1,7 @@
 ﻿using Xamarin.Forms.Internals;
 using Xamarin.Forms.Xaml;
+using App5.Views.Folder;
+using Xamarin.Forms;
 
 namespace App5.Views.Catalog
 {
@@ -10,6 +12,7 @@ namespace App5.Views.Catalog
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class ArticleListPage
     {
+        UserContext _usercontext;
         /// <summary>
         /// Initializes a new instance of the <see cref="ArticleListPage" /> class.
         /// </summary>

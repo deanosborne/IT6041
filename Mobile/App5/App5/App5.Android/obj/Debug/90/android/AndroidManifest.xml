@@ -2,20 +2,39 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname.app5">
   <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="28" />
   <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-  <application android:label="App5.Android" android:name="android.app.Application" android:allowBackup="true" android:icon="@mipmap/icon" android:debuggable="true">
+  <application android:label="App5.Android" android:usesCleartextTraffic="true" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true">
+    <activity android:name="crc648316b0a9aa8cfd61.BrowserTabActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW" />
+        <category android:name="android.intent.category.DEFAULT" />
+        <category android:name="android.intent.category.BROWSABLE" />
+        <data android:scheme="1d42c4df-d86b-4e3e-94e9-8fa5f6881496" android:host="auth" />
+      </intent-filter>
+    </activity>
     <activity android:configChanges="orientation|screenSize" android:icon="@mipmap/icon" android:label="App5" android:theme="@style/MainTheme" android:name="crc64cec50a07380483b5.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
+    <activity android:name="crc64cec50a07380483b5.MsalActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW" />
+        <category android:name="android.intent.category.BROWSABLE" />
+        <category android:name="android.intent.category.DEFAULT" />
+        <data android:host="auth" />
+        <data android:scheme="msal1d42c4df-d86b-4e3e-94e9-8fa5f6881496" />
+      </intent-filter>
+    </activity>
     <activity android:label="Web Authenticator" android:name="crc641e66d166111bdf3e.FormAuthenticatorActivity" />
     <activity android:label="Web Authenticator" android:name="crc641e66d166111bdf3e.WebAuthenticatorActivity" />
     <activity android:label="Web Authenticator Native Browser" android:launchMode="singleTop" android:name="crc641e66d166111bdf3e.WebAuthenticatorNativeBrowserActivity" />
     <activity android:name="com.microsoft.windowsazure.mobileservices.authentication.RedirectUrlActivity" />
+    <activity android:name="microsoft.identity.client.AuthenticationActivity" />
+    <activity android:configChanges="orientation|screenSize" android:label="Sign in" android:name="crc64ed1888fb4925e3b7.AuthenticationAgentActivity" />
     <service android:name="crc64a98abb514ffad9f1.KeepAliveService" />
     <receiver android:enabled="true" android:exported="false" android:label="Essentials Battery Broadcast Receiver" android:name="crc64a0e0a82d0db9a07d.BatteryBroadcastReceiver" />
     <receiver android:enabled="true" android:exported="false" android:label="Essentials Energy Saver Broadcast Receiver" android:name="crc64a0e0a82d0db9a07d.EnergySaverBroadcastReceiver" />
