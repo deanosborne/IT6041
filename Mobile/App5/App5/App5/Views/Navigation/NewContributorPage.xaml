@@ -5,33 +5,15 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="App5.Views.Navigation.NewContributorPage">
-    <ContentPage.Resources>
-        <!-- Implicit styles -->
-        <Style TargetType="{x:Type Editor}">
-            <Setter Property="BackgroundColor"
-                    Value="{StaticResource AppBackgroundColor}" />
-        </Style>
-
-        <Style TargetType="Button" 
-               ApplyToDerivedTypes="True" 
-               CanCascade="True">
-            <Setter Property="FontSize" Value="Medium" />
-            <Setter Property="BackgroundColor" Value="#1976D2" />
-            <Setter Property="TextColor" Value="White" />
-            <Setter Property="CornerRadius" Value="5" />
-        </Style>
-    </ContentPage.Resources>
-
-    <StackLayout Margin="{StaticResource PageMargin}">
-        <Label Text="Address" FontSize="Medium" />
-        <Entry Text="{Binding Address}" d:Text="Address" FontSize="Small" />
-        <Label Text="PhoneNumber" FontSize="Medium" />
-        <Entry Text="{Binding PhoneNumber}" d:Text="Phone number" FontSize="Small" />
-        <Label Text="EmailAddress" FontSize="Medium" />
-        <Entry Text="{Binding EmailAddress}" d:Text="Email" FontSize="Small" />
-        <Editor Placeholder="Enter your note"
-                Text="{Binding Text}"
-                HeightRequest="100" />
+    <StackLayout>
+        <Editor Placeholder="Enter your Name"
+                Text="{Binding Name}" />
+        <Entry Placeholder="Address"
+            Text="{Binding Address}" />
+        <Entry Placeholder="Phone Number"
+            Text="{Binding PhoneNumber}" />
+        <Entry Placeholder="Email Address"
+            Text="{Binding EmailAddress}" />
         <Grid>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*" />
@@ -40,9 +22,8 @@
             <Button Text="Save"
                     Clicked="OnSaveButtonClicked" />
             <Button Grid.Column="1"
-                    Text="Delete" 
-                    Clicked="OnDeleteButtonClicked" />
+                Text="Back"
+                    Clicked="OnBackButtonClicked" />
         </Grid>
     </StackLayout>
-
 </ContentPage>

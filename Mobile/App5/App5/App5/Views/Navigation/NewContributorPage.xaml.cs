@@ -23,13 +23,18 @@ namespace App5.Views.Navigation
             var note = (Contributors)BindingContext;
             note.Date = DateTime.UtcNow;
             await App.Database.SaveNoteAsync(note);
+            await DisplayAlert("Alert", "Contributer added!", "OK");
+        }
+        async void OnBackButtonClicked(object sender, EventArgs e)
+        {
             await Navigation.PopAsync();
         }
 
+
         async void OnDeleteButtonClicked(object sender, EventArgs e)
         {
-            var note = (Contributors)BindingContext;
-            await App.Database.DeleteNoteAsync(note);
+            var contributors = (Contributors)BindingContext;
+            await App.Database.DeleteNoteAsync(contributors);
             await Navigation.PopAsync();
         }
     }

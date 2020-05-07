@@ -20,7 +20,6 @@ namespace App5.Views.Navigation
         public NavigationListCardPage()
         {
             InitializeComponent();
-            this.BindingContext = NavigationDataService.Instance.NavigationViewModel;
         }
         protected override async void OnAppearing()
         {
@@ -40,7 +39,7 @@ namespace App5.Views.Navigation
         {
             if (e.SelectedItem != null)
             {
-                await Navigation.PushAsync(new NewContributorPage
+                await Navigation.PushAsync(new ContributorDetail
                 {
                     BindingContext = e.SelectedItem as Contributors
                 });
@@ -56,7 +55,10 @@ namespace App5.Views.Navigation
                     var userContext = await B2CAuthenticationService.Instance.SignInAsync();
                     UpdateSignInState(userContext);
                     UpdateUserInfo(userContext);
-                    await Application.Current.MainPage.Navigation.PushModalAsync(new NewContributorPage());
+                    await Navigation.PushAsync(new NewContributorPage
+                    {
+                        BindingContext = new Contributors()
+                    });
                 }
                 else
                 {

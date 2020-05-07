@@ -9,6 +9,7 @@ using App5.Views.Navigation;
 using App5.Models;
 using App5.Helpers;
 using System.IO;
+using App5.Views;
 
 namespace App5
 {
@@ -36,7 +37,7 @@ namespace App5
             InitializeComponent();
 
             DependencyService.Register<B2CAuthenticationService>();
-            MainPage = new NavigationPage(new SimpleLoginPage());
+            MainPage = new MainPage();
 
         }
 

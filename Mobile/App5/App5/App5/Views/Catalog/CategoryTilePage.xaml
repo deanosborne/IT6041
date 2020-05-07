@@ -10,8 +10,7 @@
     xmlns:listView="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms"
     x:Name="categoryPage"
     Title="Categories"
-    BackgroundColor="{DynamicResource Gray-White}"
-    NavigationPage.HasNavigationBar="True">
+    BackgroundColor="{DynamicResource Gray-White}">
 
     <ContentPage.Resources>
         <ResourceDictionary>

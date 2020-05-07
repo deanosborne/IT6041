@@ -44,7 +44,7 @@
                 FontSize="16"
                 LineHeight="{OnPlatform Android=1.5,
                                         Default=-1}"
-                Text="{Binding ItemName}"
+                Text="{Binding Name}"
                 TextColor="{DynamicResource Gray-900}" />
 
             <!--  Description about the item  -->
@@ -54,7 +54,7 @@
                 FontSize="12"
                 LineHeight="{OnPlatform Android=1.25,
                                         Default=-1}"
-                Text="{Binding ItemDescription}"
+                Text="{Binding Date}"
                 TextColor="{DynamicResource Gray-700}" />
 
             <!--  Average rating from the overall rating  -->
@@ -63,25 +63,6 @@
                 Orientation="Horizontal"
                 Spacing="0"
                 VerticalOptions="EndAndExpand">
-                <Label
-                    Margin="0,0,4,0"
-                    Style="{StaticResource RatingLabelStyle}"
-                    WidthRequest="16" />
-                <Label
-                    FontFamily="{StaticResource Montserrat-Regular}"
-                    FontSize="12"
-                    LineHeight="{OnPlatform Android=1.5,
-                                            Default=-1}"
-                    Text="{Binding ItemRating}"
-                    TextColor="{DynamicResource Gray-700}"
-                    VerticalOptions="Center">
-                    <Label.Margin>
-                        <OnPlatform
-                            x:Type="Thickness"
-                            Default="0,4,0,0"
-                            UWP="0,6,0,0" />
-                    </Label.Margin>
-                </Label>
 
                 <!--  Navigation icon  -->
                 <Label

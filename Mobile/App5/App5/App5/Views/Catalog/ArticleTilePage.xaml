@@ -13,7 +13,7 @@
     xmlns:viewModel="clr-namespace:App5.ViewModels.Catalog"
     x:Name="articleTilePage"
     BackgroundColor="{DynamicResource Gray-White}"
-    NavigationPage.HasNavigationBar="True">
+>
 
     <ContentPage.Resources>
         <ResourceDictionary>

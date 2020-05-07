@@ -6,33 +6,56 @@
     xmlns:controls="clr-namespace:App5.Controls"
     xmlns:listView="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms"
     xmlns:template="clr-namespace:App5.Views.Templates"
-    xmlns:viewModel="clr-namespace:App5.ViewModels.Navigation"
-    BackgroundColor="{DynamicResource Gray-White}"
-    NavigationPage.HasNavigationBar="True">
-    <ContentPage.Resources>
-        <ResourceDictionary>
-            <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="Styles.xaml" />
-            </ResourceDictionary.MergedDictionaries>
-        </ResourceDictionary>
-        <!-- Implicit styles -->
-    </ContentPage.Resources>
+    xmlns:viewModel="clr-namespace:App5.ViewModels.Navigation">
 
     <ContentPage.ToolbarItems>
         <ToolbarItem  x:Name="btnSignInSignOut" 
                       Text="Add" 
                       Clicked="OnSignInSignOut"/>
     </ContentPage.ToolbarItems>
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Styles.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </ContentPage.Resources>
 
-    <ListView x:Name="listView"
-              ItemSelected="OnListViewItemSelected">
-        <ListView.ItemTemplate>
-            <DataTemplate>
-                <TextCell Text="{Binding EmailAddress}"
-                          TextColor="Black"
-                          Detail="{Binding Date}" />
-            </DataTemplate>
-        </ListView.ItemTemplate>
-    </ListView>
+    <ContentPage.Content>
+        <ListView x:Name="listView"
+              ItemSelected="OnListViewItemSelected"
+                  Grid.Row="2"
+                  HasUnevenRows="true"
+                  SeparatorVisibility="None">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Frame BorderColor="White" Margin="10">
+                                <Frame.Triggers>
+                                    <DataTrigger Binding="{Binding IsSelected}" TargetType="{x:Type Frame}" Value="True">
+                                        <Setter Property="BackgroundColor" Value="Green"/>
+                                    </DataTrigger>
+                                </Frame.Triggers>
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="20"></RowDefinition>
+                                        <RowDefinition Height="20"></RowDefinition>
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"></ColumnDefinition>
+                                        <ColumnDefinition Width="40"></ColumnDefinition>
+                                    </Grid.ColumnDefinitions>
 
+                                    <Label Grid.Row="0" Grid.Column="0" Text="{Binding Name}" LineBreakMode="TailTruncation"></Label>
+                                    <Label Grid.Row="1" Grid.Column="0" Text="test" Font="Small"  TextColor="Gray" LineBreakMode="TailTruncation"></Label>
+                                    <Image Grid.Row="0" Grid.RowSpan="2" Grid.Column="1" Source="" Aspect="AspectFill"/>
+                                </Grid>
+                            </Frame>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <!--  Title View  -->
+
+    </ContentPage.Content>
 </ContentPage>
