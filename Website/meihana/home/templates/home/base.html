@@ -39,7 +39,7 @@
 
 	<!-- Document Title
 	============================================= -->
-{% block title %}<title>FillUp {{ title_text }}</title>{% endblock %}
+{% block title %}<title>Meihana {{ title_text }}</title>{% endblock %}
 
 </head>
 {% if messages %}
@@ -109,7 +109,7 @@
 					============================================= -->
 					<div class="top-links">
 						<ul>
-							<li><a href="#deals-test">Show All Deals</a>
+							<li><a href="#deals-test">About Meihana</a>
 							</li>
 						</ul>
 					</div><!-- .top-links end -->
@@ -162,8 +162,8 @@
 
 						<ul>
 							<li><a href="{% url 'home' %}"><div>Home</div></a></li>
-							<li><a href="{% url 'diagnosis' %}"><div>Statistics</div></a></li>
-							<li><a href="{% url 'about' %}"><div>About Us</div></a></li>
+							<li><a href="{% url 'selfhelp' %}"><div>Self-help</div></a></li>
+							<li><a href="{% url 'learning' %}"><div>Learning</div></a></li>
 							<li><a href="{% url 'resources' %}"><div>Resources</div></a></li>
 							<li><a href="{% url 'contact' %}"><div>Contact</div></a></li>
 						</ul>

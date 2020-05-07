@@ -20,13 +20,13 @@ def home(request):
 
     title_text = 'Home'
     return render(request, 'home/home.html', {'title_text':title_text})
-def about(request):
-    title_text = 'About'
-    return render(request, 'home/about-us.html', {'title_text':title_text})
+def learning(request):
+    title_text = 'Learning'
+    return render(request, 'home/Learning.html', {'title_text':title_text})
 
-def diagnosis(request):
-    title_text = 'Diagnosis'
-    return render(request, 'home/diagnosis.html', {'title_text':title_text})
+def selfhelp(request):
+    title_text = 'Self Help'
+    return render(request, 'home/selfhelp.html', {'title_text':title_text})
 
 def resources(request):
     title_text = 'resources'
