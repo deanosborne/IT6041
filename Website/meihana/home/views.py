@@ -24,17 +24,17 @@ def learning(request):
     title_text = 'Learning'
     return render(request, 'home/Learning.html', {'title_text':title_text})
 
-def selfhelp(request):
-    title_text = 'Self Help'
-    return render(request, 'home/selfhelp.html', {'title_text':title_text})
+def model(request):
+    title_text = 'Model'
+    return render(request, 'home/model.html', {'title_text':title_text})
 
 def resources(request):
     title_text = 'resources'
     return render(request, 'home/resources.html', {'title_text':title_text})
 
-def contact(request):
-    title_text = 'Contact'
-    return render(request, 'home/contact.html', {'title_text':title_text})
+def team(request):
+    title_text = 'Team'
+    return render(request, 'home/team.html', {'title_text':title_text})
 
 def add_comment_to_post(request, pk):
     post = get_object_or_404(Post, pk=pk)
