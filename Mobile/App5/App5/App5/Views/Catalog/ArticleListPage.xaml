@@ -40,7 +40,7 @@
                                                 Aspect="AspectFill"
                                                 BackgroundColor="{DynamicResource Gray-200}"
                                                 HeightRequest="140"
-                                                Source="Image1.jpg">
+                                                Source="patient.png">
                                                 
                                             </Image>
 

@@ -31,26 +31,24 @@
                     </Frame.Triggers>
                     <Grid>
                         <Grid.RowDefinitions>
-                            <RowDefinition Height="50" ></RowDefinition>
-                            <RowDefinition Height="40"></RowDefinition>
+                            <RowDefinition Height="40" ></RowDefinition>
                         </Grid.RowDefinitions>
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="*"></ColumnDefinition>
-                            <ColumnDefinition Width="40"></ColumnDefinition>
+                            <ColumnDefinition Width="50"></ColumnDefinition>
                         </Grid.ColumnDefinitions>
 
                         <Label Margin="0,0,0,16"
-                               Padding="40,0,0,0"
+                               Padding="48,0,0,0"
                             FontFamily="{StaticResource Montserrat-Bold}"
                             FontSize="20"
                             Style="{StaticResource HeaderLabelStyle}"
                             Text="About Meihana"></Label>
-                        <Label Grid.Row="1" Grid.Column="0" Text="What is the meihana model and why should I care?" Style="{StaticResource DescriptionLabelStyle}"></Label>
+
                     </Grid>
                 </Frame>
                 <Label Grid.Row="0" Grid.Column="0" Text="The Meihana Model" Font="Large" LineBreakMode="TailTruncation" FontFamily="{StaticResource Montserrat-Bold}"></Label>
-                <Label Grid.Row="1" Grid.Column="0" Text="
-This model provides a basis for a more comprehensive assessment of clients/whanau and underpins appropriate treatment decisions."  FontFamily="{StaticResource Montserrat-Regular}" ></Label>
+                <Label Grid.Row="1" Grid.Column="0" Text="This model provides a basis for a more comprehensive assessment of clients/whanau and underpins appropriate treatment decisions."  FontFamily="{StaticResource Montserrat-Regular}" ></Label>
 
                 <Image
                                                 Aspect="AspectFill"
@@ -61,8 +59,7 @@ This model provides a basis for a more comprehensive assessment of clients/whana
                 </Image>
 
                 <Label Grid.Row="2" Grid.Column="0" Text="Clinician" Font="Large" LineBreakMode="TailTruncation" FontFamily="{StaticResource Montserrat-Bold}"></Label>
-                <Label Grid.Row="3" Grid.Column="0" Text="
-Should NOT to determine 'how Māori a client is' but to identify their beliefs, values and experiences within a Māori context; currently and in the past.The Meihana Model was developed for a Mental health situation but can be applied across the health arena."  FontFamily="{StaticResource Montserrat-Regular}" 
+                <Label Grid.Row="3" Grid.Column="0" Text="The aim is NOT to determine 'how Māori a client is' but to identify their beliefs, values and experiences within a Māori context; currently and in the past.The Meihana Model was developed for a Mental health situation but can be applied across the health arena."  FontFamily="{StaticResource Montserrat-Regular}" 
                        ></Label>
             </StackLayout>
         </ScrollView>

@@ -73,7 +73,7 @@ namespace App5.ViewModels.Catalog
             {
                 new Model
                 {
-                    ImagePath = App.BaseImageUrl + "Article_image1.png",
+                    ImagePath = "meihana.png",
                     Name = "Further learning",
                     Author = "Learning about meihana",
                     Date = "Apr 16",
@@ -81,7 +81,7 @@ namespace App5.ViewModels.Catalog
                 },
                 new Model
                 {
-                    ImagePath = App.BaseImageUrl + "Article_image2.png",
+                    ImagePath ="whanau.png",
                     Name = "Contributors",
                     Author = "Companies who have helped",
                     Date = "May 26",

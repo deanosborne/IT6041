@@ -1357,4 +1357,6 @@ F:\Users\imdea\Desktop\UNI\FINALPROJECT\IT6041\Mobile\App5\App5\App5.Android\obj
 F:\Users\imdea\Desktop\UNI\FINALPROJECT\IT6041\Mobile\App5\App5\App5.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 F:\Users\imdea\Desktop\UNI\FINALPROJECT\IT6041\Mobile\App5\App5\App5.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
 F:\Users\imdea\Desktop\UNI\FINALPROJECT\IT6041\Mobile\App5\App5\App5.Android\obj\Debug\90\res\drawable\bg.png
-F:\Users\imdea\Desktop\UNI\FINALPROJECT\IT6041\Mobile\App5\App5\App5.Android\obj\Debug\90\stamp\SetupDependenciesForDesigner.stamp
+F:\Users\imdea\Desktop\UNI\FINALPROJECT\IT6041\Mobile\App5\App5\App5.Android\obj\Debug\90\res\drawable\patient.png
+F:\Users\imdea\Desktop\UNI\FINALPROJECT\IT6041\Mobile\App5\App5\App5.Android\obj\Debug\90\res\drawable\whanau.png
+F:\Users\imdea\Desktop\UNI\FINALPROJECT\IT6041\Mobile\App5\App5\App5.Android\obj\Debug\90\res\drawable\hauora.png
