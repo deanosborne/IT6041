@@ -89,6 +89,7 @@
      <Compile Include="Assets\Standard Assets\Scripts\Singleton.cs" />
      <Compile Include="Assets\Standard Assets\Scripts\TutorialEnd.cs" />
      <Compile Include="Assets\Standard Assets\Scripts\UpdateUI.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\Waka.cs" />
      <Compile Include="Assets\Standard Assets\Utility\ActivateTrigger.cs" />
      <Compile Include="Assets\Standard Assets\Utility\AlphaButtonClickMask.cs" />
      <Compile Include="Assets\Standard Assets\Utility\AutoMobileShaderSwitch.cs" />

@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -9,7 +10,7 @@ public class GameManager : Singleton<GameManager> {
 
     private float _currentlv;
     private float _completed;
-
+    private float _lv1completed;
 
 
     public float CurrentLv
@@ -24,9 +25,18 @@ public class GameManager : Singleton<GameManager> {
         set { _completed = value; }
     }
 
+    public float Lv1
+    {
+        get { return _lv1completed; }
+        set { _lv1completed = value; }
+    }
+
     void Start()
     {
         CurrentLv = 1;
+
+        Lv1 = 0;
+
 
     }
 

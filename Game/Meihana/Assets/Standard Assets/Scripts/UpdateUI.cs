@@ -17,7 +17,12 @@ public class UpdateUI : MonoBehaviour
         {
             LevelDialogue.text = ("Welcome to the tutorial. Press J to close");
         }
-        
+
+        if (GameManager.Instance.CurrentLv == 2)
+        {
+            LevelDialogue.text = ("Welcome to the Level 1. Press J to close");
+        }
+
         if (Input.GetKeyDown(KeyCode.J))
         {
             GameManager.Instance.CurrentLv = 0;
