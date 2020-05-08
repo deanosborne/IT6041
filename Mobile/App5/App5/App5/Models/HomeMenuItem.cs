@@ -10,8 +10,7 @@ namespace App5.Models
         About,
         Resources,
         Contributors,
-        Contact,
-        Diagnosis
+        Team,
     }
     public class HomeMenuItem
     {

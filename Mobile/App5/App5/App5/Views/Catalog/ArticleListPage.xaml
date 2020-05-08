@@ -13,6 +13,7 @@
     xmlns:viewModel="clr-namespace:App5.ViewModels.Catalog"
     x:Name="articleList"
     BackgroundColor="{DynamicResource Gray-White}"
+    Title="Home"
 >
 
     <ContentPage.Resources>
@@ -31,18 +32,11 @@
 
 
     <ContentPage.Content>
+        
         <ScrollView>
             <StackLayout Padding="16" Spacing="16">
                 <!--  Header label  -->
-                <Label
-                    FontFamily="{StaticResource Montserrat-SemiBold}"
-                    FontSize="12"
-                    LineHeight="{OnPlatform Default=-1,
-                                            Android=1.25}"
-                    Text="FEATURED STORIES"
-                    TextColor="{DynamicResource Gray-800}" />
-
-                                            <Image
+                <Image
                                                 Aspect="AspectFill"
                                                 BackgroundColor="{DynamicResource Gray-200}"
                                                 HeightRequest="140"
@@ -50,13 +44,34 @@
                                                 
                                             </Image>
 
+                <Frame BorderColor="White" Margin="0">
+                    <Frame.Triggers>
+                        <DataTrigger Binding="{Binding IsSelected}" TargetType="{x:Type Frame}" Value="True">
+
+                        </DataTrigger>
+                    </Frame.Triggers>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="30"></RowDefinition>
+                            <RowDefinition Height="40"></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                            <ColumnDefinition Width="40"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+
+                        <Label Grid.Row="0" Grid.Column="0" Text="Welcome to MeihanaDB" Font="Large" LineBreakMode="TailTruncation" TextColor="{DynamicResource Gray-800}"></Label>
+                        <Label Grid.Row="1" Grid.Column="0" Text="Your online resource for mental health and meihana learning" TextColor="Gray"></Label>
+                    </Grid>
+                </Frame>
+
                 <!--  Header label  -->
                 <Label
                     FontFamily="{StaticResource Montserrat-SemiBold}"
                     FontSize="12"
                     LineHeight="{OnPlatform Default=-1,
                                             Android=1.25}"
-                    Text="LATEST STORIES"
+                    Text="QUICK LINKS"
                     TextColor="{DynamicResource Gray-800}" />
 
                 <!--  Featured blog list  -->

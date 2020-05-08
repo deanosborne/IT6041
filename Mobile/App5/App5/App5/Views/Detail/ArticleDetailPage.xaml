@@ -10,6 +10,7 @@
     xmlns:viewModel="clr-namespace:App5.ViewModels.Detail"
     x:Name="detailPage"
     BackgroundColor="{DynamicResource Gray-White}"
+    Title="Diagnosis"
 >
 
     <ContentPage.Resources>
@@ -25,44 +26,6 @@
     <ContentPage.BindingContext>
         <viewModel:ArticleDetailPageViewModel />
     </ContentPage.BindingContext>
-
-    <ContentPage.ControlTemplate>
-        <ControlTemplate>
-            <StackLayout Spacing="0">
-                <!--  Title View  -->
-                <controls:TitleView Title="Brainstorm">
-                    <controls:TitleView.TrailingView>
-                        <StackLayout Orientation="Horizontal">
-
-                            <!--  Favourite button  -->
-                            <buttons:SfButton
-                                x:Name="favouriteButton"
-                                Command="{TemplateBinding BindingContext.FavouriteCommand}"
-                                CommandParameter="{x:Reference favouriteButton}"
-                                CornerRadius="4"
-                                HeightRequest="40"
-                                Style="{StaticResource NavigationBarButtonStyle}"
-                                Text="{StaticResource Favourite}"
-                                WidthRequest="40" />
-
-                            <!--  Bookmark button  -->
-                            <buttons:SfButton
-                                x:Name="bookmarkButton"
-                                Command="{TemplateBinding BindingContext.BookmarkCommand}"
-                                CommandParameter="{x:Reference bookmarkButton}"
-                                CornerRadius="4"
-                                HeightRequest="40"
-                                Style="{StaticResource NavigationBarButtonStyle}"
-                                Text="{StaticResource ClearBookmark}"
-                                WidthRequest="40" />
-                        </StackLayout>
-                    </controls:TitleView.TrailingView>
-                </controls:TitleView>
-
-                <ContentPresenter />
-            </StackLayout>
-        </ControlTemplate>
-    </ContentPage.ControlTemplate>
 
     <ContentPage.Content>
         <ScrollView>

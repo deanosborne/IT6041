@@ -99,7 +99,7 @@
   "categories": [
     {
       "icon": "Electronics.png",
-      "name": "Electronics",
+      "name": "Learning",
       "subcategories": [
 
         "Laptops",
@@ -112,7 +112,7 @@
     },
     {
       "icon": "Fashion.png",
-      "name": "Fashion",
+      "name": "Am I Affected?",
       "subcategories": [
 
         "Shirts",
@@ -125,7 +125,7 @@
     },
     {
       "icon": "HomeFurniture.png",
-      "name": "Home and Furniture",
+      "name": "How to help",
       "subcategories": [
 
         "Diwans",
@@ -136,72 +136,7 @@
     },
     {
       "icon": "PersonalCare.png",
-      "name": "Personal Care",
-      "subcategories": [
-
-        "Laptops",
-        "Mobiles",
-        "Tablets",
-        "Televisions",
-        "Printers and Monitors"
-
-      ]
-    },
-    {
-      "icon": "Books.png",
-      "name": "Books",
-      "subcategories": [
-
-        "Laptops",
-        "Mobiles",
-        "Tablets",
-        "Televisions",
-        "Printers and Monitors"
-
-      ]
-    },
-    {
-      "icon": "Clothes.png",
-      "name": "Clothes",
-      "subcategories": [
-
-        "Laptops",
-        "Mobiles",
-        "Tablets",
-        "Televisions",
-        "Printers and Monitors"
-
-      ]
-    },
-    {
-      "icon": "MobilePhones.png",
-      "name": "Mobile Phones",
-      "subcategories": [
-
-        "Laptops",
-        "Mobiles",
-        "Tablets",
-        "Televisions",
-        "Printers and Monitors"
-
-      ]
-    },
-    {
-      "icon": "Accessories.png",
-      "name": "Accessories",
-      "subcategories": [
-
-        "Laptops",
-        "Mobiles",
-        "Tablets",
-        "Televisions",
-        "Printers and Monitors"
-
-      ]
-    },
-    {
-      "icon": "Toys.png",
-      "name": "Toys and Baby",
+      "name": "Glossary",
       "subcategories": [
 
         "Laptops",

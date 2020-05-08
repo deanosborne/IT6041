@@ -11,6 +11,7 @@
     xmlns:maps="clr-namespace:Syncfusion.SfMaps.XForms;assembly=Syncfusion.SfMaps.XForms"
     xmlns:viewModel="clr-namespace:App5.ViewModels.ContactUs"
     BackgroundColor="{DynamicResource Gray-White}"
+    Title="ContactUs"
 >
 
     <ContentPage.Resources>
@@ -40,7 +41,6 @@
                 <maps:SfMaps
                     x:Name="Map"
                     BackgroundColor="{DynamicResource Gray-White}"
-                    HeightRequest="315"
                     HorizontalOptions="FillAndExpand"
                     VerticalOptions="FillAndExpand"
                     ZoomLevel="15">
@@ -106,10 +106,9 @@
                                         <!--  Set pin image  -->
                                         <Image
                                             Margin="10,5,0,0"
-                                            HeightRequest="25"
                                             HorizontalOptions="StartAndExpand"
                                             WidthRequest="25" 
-                                            Source="{Binding PinImage}" />
+ />
                                     </StackLayout>
                                 </DataTemplate>
                             </maps:ImageryLayer.MarkerTemplate>
@@ -121,6 +120,7 @@
                 <Frame
                     x:Name="MainFrame"
                     Padding="0"
+                    
                     BackgroundColor="{DynamicResource Gray-White}"
                     BorderColor="{DynamicResource Gray-White}"
                     HorizontalOptions="FillAndExpand">

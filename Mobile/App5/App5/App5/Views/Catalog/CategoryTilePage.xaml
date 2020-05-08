@@ -9,7 +9,7 @@
     xmlns:core="clr-namespace:Syncfusion.XForms.Core;assembly=Syncfusion.Core.XForms"
     xmlns:listView="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms"
     x:Name="categoryPage"
-    Title="Categories"
+    Title="Resources"
     BackgroundColor="{DynamicResource Gray-White}">
 
     <ContentPage.Resources>
@@ -28,27 +28,7 @@
                 <RowDefinition Height="*" />
             </Grid.RowDefinitions>
 
-            <!--  Title View  -->
-            <controls:TitleView Title="Categories" Grid.Row="0">
-                <controls:TitleView.LeadingView>
-                    <buttons:SfButton
-                        x:Name="backButton"
-                        Command="{Binding BindingContext.BackButtonCommand, Source={x:Reference CategoryTile}}"
-                        CommandParameter="{x:Reference backButton}"
-                        CornerRadius="4"
-                        Style="{StaticResource IconButtonStyle}"
-                        Text="{StaticResource Back}" />
-                </controls:TitleView.LeadingView>
-                <controls:TitleView.TrailingView>
-                    <StackLayout HorizontalOptions="End" Orientation="Horizontal">
-                        <buttons:SfButton
-                            Command="{Binding BindingContext.NotificationCommand, Source={x:Reference CategoryTile}}"
-                            CornerRadius="4"
-                            Style="{StaticResource IconButtonStyle}"
-                            Text="{StaticResource Bell}" />
-                    </StackLayout>
-                </controls:TitleView.TrailingView>
-            </controls:TitleView>
+            
 
             <!--  ListView for Category  -->
             <listView:SfListView

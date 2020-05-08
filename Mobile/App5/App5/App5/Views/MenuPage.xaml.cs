@@ -26,8 +26,7 @@ namespace App5.Views
                 new HomeMenuItem {Id = MenuItemType.Resources, Title="Resources" },
                 new HomeMenuItem {Id = MenuItemType.About, Title="About" },
                 new HomeMenuItem {Id = MenuItemType.Contributors, Title="Contributors" },
-                new HomeMenuItem {Id = MenuItemType.Diagnosis, Title="Diagnosis" },
-                new HomeMenuItem {Id = MenuItemType.Contact, Title="Contact" },
+                new HomeMenuItem {Id = MenuItemType.Team, Title="Team" },
             };
 
             ListViewMenu.ItemsSource = menuItems;

@@ -44,16 +44,13 @@ namespace App5.Views
                         MenuPages.Add(id, new NavigationPage(new CategoryTilePage()));
                         break;
                     case (int)MenuItemType.About:
-                        MenuPages.Add(id, new NavigationPage(new AboutUsWithCardsPage()));
+                        MenuPages.Add(id, new NavigationPage(new AboutMeihanaPage()));
                         break;
                     case (int)MenuItemType.Contributors:
                         MenuPages.Add(id, new NavigationPage(new NavigationListCardPage()));
                         break;
-                    case (int)MenuItemType.Diagnosis:
-                        MenuPages.Add(id, new NavigationPage(new ArticleDetailPage()));
-                        break;
-                    case (int)MenuItemType.Contact:
-                        MenuPages.Add(id, new NavigationPage(new ContactUsPage()));
+                    case (int)MenuItemType.Team:
+                        MenuPages.Add(id, new NavigationPage(new AboutUsWithCardsPage()));
                         break;
                 }
             }

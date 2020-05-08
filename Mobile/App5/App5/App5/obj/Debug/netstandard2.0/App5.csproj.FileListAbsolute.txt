@@ -4,6 +4,7 @@ F:\Users\imdea\Desktop\UNI\FINALPROJECT\IT6041\Mobile\App5\App5\App5\bin\Debug\n
 F:\Users\imdea\Desktop\UNI\FINALPROJECT\IT6041\Mobile\App5\App5\App5\bin\Debug\netstandard2.0\App5.pdb
 F:\Users\imdea\Desktop\UNI\FINALPROJECT\IT6041\Mobile\App5\App5\App5\obj\Debug\netstandard2.0\App.xaml.g.cs
 F:\Users\imdea\Desktop\UNI\FINALPROJECT\IT6041\Mobile\App5\App5\App5\obj\Debug\netstandard2.0\Themes\LightTheme.xaml.g.cs
+F:\Users\imdea\Desktop\UNI\FINALPROJECT\IT6041\Mobile\App5\App5\App5\obj\Debug\netstandard2.0\Views\AboutUs\AboutMeihanaPage.xaml.g.cs
 F:\Users\imdea\Desktop\UNI\FINALPROJECT\IT6041\Mobile\App5\App5\App5\obj\Debug\netstandard2.0\Views\AboutUs\AboutUsWithCardsPage.xaml.g.cs
 F:\Users\imdea\Desktop\UNI\FINALPROJECT\IT6041\Mobile\App5\App5\App5\obj\Debug\netstandard2.0\Views\AboutUs\Styles.xaml.g.cs
 F:\Users\imdea\Desktop\UNI\FINALPROJECT\IT6041\Mobile\App5\App5\App5\obj\Debug\netstandard2.0\Views\Catalog\ArticleListPage.xaml.g.cs
@@ -14,14 +15,6 @@ F:\Users\imdea\Desktop\UNI\FINALPROJECT\IT6041\Mobile\App5\App5\App5\obj\Debug\n
 F:\Users\imdea\Desktop\UNI\FINALPROJECT\IT6041\Mobile\App5\App5\App5\obj\Debug\netstandard2.0\Views\ContactUs\Styles.xaml.g.cs
 F:\Users\imdea\Desktop\UNI\FINALPROJECT\IT6041\Mobile\App5\App5\App5\obj\Debug\netstandard2.0\Views\Detail\ArticleDetailPage.xaml.g.cs
 F:\Users\imdea\Desktop\UNI\FINALPROJECT\IT6041\Mobile\App5\App5\App5\obj\Debug\netstandard2.0\Views\Detail\Styles.xaml.g.cs
-F:\Users\imdea\Desktop\UNI\FINALPROJECT\IT6041\Mobile\App5\App5\App5\obj\Debug\netstandard2.0\Views\Folder\Testing.xaml.g.cs
-F:\Users\imdea\Desktop\UNI\FINALPROJECT\IT6041\Mobile\App5\App5\App5\obj\Debug\netstandard2.0\Views\Folder\TestLoginPage.xaml.g.cs
-F:\Users\imdea\Desktop\UNI\FINALPROJECT\IT6041\Mobile\App5\App5\App5\obj\Debug\netstandard2.0\Views\Forms\SimpleEmailEntry.xaml.g.cs
-F:\Users\imdea\Desktop\UNI\FINALPROJECT\IT6041\Mobile\App5\App5\App5\obj\Debug\netstandard2.0\Views\Forms\SimpleForgotPasswordPage.xaml.g.cs
-F:\Users\imdea\Desktop\UNI\FINALPROJECT\IT6041\Mobile\App5\App5\App5\obj\Debug\netstandard2.0\Views\Forms\SimpleLoginPage.xaml.g.cs
-F:\Users\imdea\Desktop\UNI\FINALPROJECT\IT6041\Mobile\App5\App5\App5\obj\Debug\netstandard2.0\Views\Forms\SimpleResetPasswordPage.xaml.g.cs
-F:\Users\imdea\Desktop\UNI\FINALPROJECT\IT6041\Mobile\App5\App5\App5\obj\Debug\netstandard2.0\Views\Forms\SimpleSignUpPage.xaml.g.cs
-F:\Users\imdea\Desktop\UNI\FINALPROJECT\IT6041\Mobile\App5\App5\App5\obj\Debug\netstandard2.0\Views\Forms\Styles.xaml.g.cs
 F:\Users\imdea\Desktop\UNI\FINALPROJECT\IT6041\Mobile\App5\App5\App5\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
 F:\Users\imdea\Desktop\UNI\FINALPROJECT\IT6041\Mobile\App5\App5\App5\obj\Debug\netstandard2.0\Views\MenuPage.xaml.g.cs
 F:\Users\imdea\Desktop\UNI\FINALPROJECT\IT6041\Mobile\App5\App5\App5\obj\Debug\netstandard2.0\Views\Navigation\ContributorDetail.xaml.g.cs
@@ -39,4 +32,3 @@ F:\Users\imdea\Desktop\UNI\FINALPROJECT\IT6041\Mobile\App5\App5\App5\obj\Debug\n
 F:\Users\imdea\Desktop\UNI\FINALPROJECT\IT6041\Mobile\App5\App5\App5\obj\Debug\netstandard2.0\App5.dll
 F:\Users\imdea\Desktop\UNI\FINALPROJECT\IT6041\Mobile\App5\App5\App5\obj\Debug\netstandard2.0\ref\App5.dll
 F:\Users\imdea\Desktop\UNI\FINALPROJECT\IT6041\Mobile\App5\App5\App5\obj\Debug\netstandard2.0\App5.pdb
-F:\Users\imdea\Desktop\UNI\FINALPROJECT\IT6041\Mobile\App5\App5\App5\obj\Debug\netstandard2.0\App5.csprojAssemblyReference.cache

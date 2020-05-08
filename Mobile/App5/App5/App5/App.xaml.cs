@@ -1,7 +1,6 @@
 using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
-using App5.Views.Forms;
 using Microsoft.Identity.Client;
 using System.Collections.Generic;
 using App5.Views.Folder;
@@ -38,6 +37,8 @@ namespace App5
 
             DependencyService.Register<B2CAuthenticationService>();
             MainPage = new MainPage();
+
+
 
         }
 

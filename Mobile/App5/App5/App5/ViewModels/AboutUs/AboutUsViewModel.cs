@@ -31,9 +31,9 @@ namespace App5.ViewModels.AboutUs
         /// </summary>
         public AboutUsViewModel()
         {
-            Title = "About";
+            Title = "Our Team";
             this.productDescription =
-                "Situated in the heart of Smith-town, Acme Products, Inc., has a long-standing tradition of selling the best products while providing the fastest service on the market. Since 1952, we’ve helped our customers identify their needs, understand their wants, and capture their dreams.";
+                "The developers who worked on this app";
             this.productIcon = App.BaseImageUrl + "Icon.png";
             this.productVersion = "1.0";
             this.cardsTopImage = App.BaseImageUrl + "Mask.png";
@@ -42,58 +42,16 @@ namespace App5.ViewModels.AboutUs
             {
                 new AboutUsModel
                 {
-                    EmployeeName = "Alice",
+                    EmployeeName = "Dean Osborne",
                     Image = App.BaseImageUrl + "ProfileImage15.png",
-                    Designation = "Project Manager"
+                    Designation = "Developer"
                 },
                 new AboutUsModel
                 {
-                    EmployeeName = "Jessica Park",
+                    EmployeeName = "Peter Doodson",
                     Image = App.BaseImageUrl + "ProfileImage10.png",
-                    Designation = "Senior Manager"
+                    Designation = "Developer"
                 },
-                new AboutUsModel
-                {
-                    EmployeeName = "Lisa",
-                    Image = App.BaseImageUrl + "ProfileImage11.png",
-                    Designation = "Senior Developer"
-                },
-                new AboutUsModel
-                {
-                    EmployeeName = "Rebecca",
-                    Image = App.BaseImageUrl + "ProfileImage12.png",
-                    Designation = "Senior Designer"
-                },
-                new AboutUsModel
-                {
-                    EmployeeName = "Alexander",
-                    Image = App.BaseImageUrl + "ProfileImage3.png",
-                    Designation = "Senior Manager"
-                },
-                new AboutUsModel
-                {
-                    EmployeeName = "Anthony",
-                    Image = App.BaseImageUrl + "ProfileImage1.png",
-                    Designation = "Senior Developer"
-                },
-                new AboutUsModel
-                {
-                    EmployeeName = "Danielle",
-                    Image = App.BaseImageUrl + "ProfileImage7.png",
-                    Designation = "Senior Developer"
-                },
-                 new AboutUsModel
-                {
-                    EmployeeName = "Kyle Greene",
-                    Image = App.BaseImageUrl + "ProfileImage6.png",
-                    Designation = "Senior Developer"
-                },
-                  new AboutUsModel
-                {
-                    EmployeeName = "Navya Sharma",
-                    Image = App.BaseImageUrl + "ProfileImage13.png",
-                    Designation = "Testing Engineer"
-                }
             };
 
             this.ItemSelectedCommand = new Command(this.ItemSelected);

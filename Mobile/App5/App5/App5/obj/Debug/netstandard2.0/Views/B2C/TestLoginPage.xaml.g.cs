@@ -8,12 +8,12 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("App5.Views.Folder.TestLoginPage.xaml", "Views/Folder/TestLoginPage.xaml", typeof(global::App5.Views.Folder.TestLoginPage))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("App5.Views.B2C.TestLoginPage.xaml", "Views/B2C/TestLoginPage.xaml", typeof(global::App5.Views.Folder.TestLoginPage))]
 
 namespace App5.Views.Folder {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\Folder\\TestLoginPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\B2C\\TestLoginPage.xaml")]
     public partial class TestLoginPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]

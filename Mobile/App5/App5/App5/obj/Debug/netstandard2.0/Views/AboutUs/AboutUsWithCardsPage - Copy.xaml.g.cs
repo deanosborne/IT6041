@@ -8,17 +8,17 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("App5.Views.Forms.Styles.xaml", "Views/Forms/Styles.xaml", typeof(global::App5.Views.Forms.Styles))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("App5.Views.AboutUs.AboutUsWithCardsPage - Copy.xaml", "Views/AboutUs/AboutUsWithCardsPage - Copy.xaml", typeof(global::App5.Views.AboutUs.AboutUsWithCardsPage))]
 
-namespace App5.Views.Forms {
+namespace App5.Views.AboutUs {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\Forms\\Styles.xaml")]
-    public partial class Styles : global::Xamarin.Forms.ResourceDictionary {
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\AboutUs\\AboutUsWithCardsPage - Copy.xaml")]
+    public partial class AboutUsWithCardsPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(Styles));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(AboutUsWithCardsPage));
         }
     }
 }

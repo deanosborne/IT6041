@@ -9,7 +9,7 @@
     xmlns:listView="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms"
     xmlns:viewModel="clr-namespace:App5.ViewModels.AboutUs"
     BackgroundColor="{DynamicResource Gray-White}"
-    Title="{Binding Title}">
+    Title="Our Team">
     <ContentPage.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
@@ -51,14 +51,8 @@
                     Grid.Row="0"
                     Grid.ColumnSpan="3"
                     Aspect="Fill"
-                    BackgroundColor="{DynamicResource Gray-200}"
-                    HeightRequest="253"
+                    HeightRequest="50"
                     HorizontalOptions="Fill">
-                      <Image.Source>
-                         <UriImageSource Uri="{Binding CardsTopImage}"
-                                 CacheValidity="14"
-                                 CachingEnabled="true"/>
-                      </Image.Source>
                 </Image>
 
                 <!--  Product name and description  -->
@@ -105,12 +99,6 @@
                     Padding="0"
                     Spacing="0">
 
-                    <Label
-                        Margin="0,32,0,24"
-                        FontFamily="{StaticResource Montserrat-Bold}"
-                        FontSize="20"
-                        Style="{StaticResource HeaderLabelStyle}"
-                        Text="Our Team" />
                 </StackLayout>
                 <!--  Employee profiles  -->
                 <listView:SfListView

@@ -8,17 +8,17 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("App5.Views.Forms.SimpleForgotPasswordPage.xaml", "Views/Forms/SimpleForgotPasswordPage.xaml", typeof(global::App5.Views.Forms.SimpleForgotPasswordPage))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("App5.Views.AboutUs.AboutMeihanaPage.xaml", "Views/AboutUs/AboutMeihanaPage.xaml", typeof(global::App5.Views.AboutUs.AboutMeihanaPage))]
 
-namespace App5.Views.Forms {
+namespace App5.Views.AboutUs {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\Forms\\SimpleForgotPasswordPage.xaml")]
-    public partial class SimpleForgotPasswordPage : global::Xamarin.Forms.ContentPage {
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\AboutUs\\AboutMeihanaPage.xaml")]
+    public partial class AboutMeihanaPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(SimpleForgotPasswordPage));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(AboutMeihanaPage));
         }
     }
 }

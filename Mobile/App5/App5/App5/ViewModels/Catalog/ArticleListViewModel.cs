@@ -74,33 +74,17 @@ namespace App5.ViewModels.Catalog
                 new Model
                 {
                     ImagePath = App.BaseImageUrl + "Article_image1.png",
-                    Name = "Learning to Reset",
-                    Author = "John Doe",
+                    Name = "Further learning",
+                    Author = "Learning about meihana",
                     Date = "Apr 16",
                     AverageReadingTime = "5 mins read"
                 },
                 new Model
                 {
                     ImagePath = App.BaseImageUrl + "Article_image2.png",
-                    Name = "Holistic Approach to UI Design",
-                    Author = "John Doe",
+                    Name = "Contributors",
+                    Author = "Companies who have helped",
                     Date = "May 26",
-                    AverageReadingTime = "5 mins read"
-                },
-                new Model
-                {
-                    ImagePath = App.BaseImageUrl + "Article_image3.png",
-                    Name = "Guiding Your Flock to Success",
-                    Author = "John Doe",
-                    Date = "Apr 10",
-                    AverageReadingTime = "5 mins read"
-                },
-                new Model
-                {
-                    ImagePath = App.BaseImageUrl + "Article_image4.png",
-                    Name = "Holistic Approach to UI Design",
-                    Author = "John Doe",
-                    Date = "Apr 16",
                     AverageReadingTime = "5 mins read"
                 },
             };

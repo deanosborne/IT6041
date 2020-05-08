@@ -10,7 +10,6 @@ using Xamarin.Forms;
 using App5.Views.Folder;
 using App5.Models;
 using App5.Helpers;
-using App5.Views.Forms;
 
 namespace App5.Views.Navigation
 {
