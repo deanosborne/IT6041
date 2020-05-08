@@ -491,6 +491,9 @@ public class Quest : MonoBehaviour
             tmpE.quest = this;
             QuestHandler.TriggerEvent("QuestCompleted", tmpE); //Sends out the QuestCompleted event
 
+            GameManager.Instance.Completed++;
+
+
             List<Criteria> allCriterias = new List<Criteria>(criterias);
             allCriterias.AddRange(optionalCriterias);
             foreach (Criteria c in allCriterias)

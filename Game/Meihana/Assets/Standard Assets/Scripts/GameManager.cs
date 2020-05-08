@@ -8,6 +8,7 @@ public class GameManager : Singleton<GameManager> {
     public static GameManager Instance = null;
 
     private float _currentlv;
+    private float _completed;
 
 
 
@@ -17,6 +18,11 @@ public class GameManager : Singleton<GameManager> {
         set { _currentlv = value; }
     }
 
+    public float Completed
+    {
+        get { return _completed; }
+        set { _completed = value; }
+    }
 
     void Start()
     {
