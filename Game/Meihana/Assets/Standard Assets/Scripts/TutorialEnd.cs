@@ -7,6 +7,9 @@ public class TutorialEnd : MonoBehaviour
 {
     void OnTriggerEnter(Collider other)
     {
+
+        GameManager.Instance.CurrentLv = SceneManager.GetActiveScene().buildIndex + 2;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+
     }
 }

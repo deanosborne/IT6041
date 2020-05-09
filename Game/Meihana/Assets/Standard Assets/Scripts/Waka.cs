@@ -22,8 +22,7 @@ public class Waka : MonoBehaviour
         if (GameManager.Instance.Completed == 3)
         {
 
-            SceneManager.LoadScene(1);
-            //end game
+            GameManager.Instance.CurrentLv = 6;
 
         }
     }

@@ -1027,7 +1027,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh67274
+  m_Name: pb_Mesh100604
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -2224,7 +2224,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh67196
+  m_Name: pb_Mesh100492
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -3186,7 +3186,7 @@ GameObject:
   - component: {fileID: 834625685}
   - component: {fileID: 834625684}
   m_Layer: 9
-  m_Name: NPC1 (2)
+  m_Name: NPC2
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3252,11 +3252,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    name: Hello
+    name: Buck
     sentences:
-    - Yes
-    - "No\t\t\t"
-    - OK
+    - Amazing!
+    - You got through!
 --- !u!114 &834625688
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3596,7 +3595,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh67022
+  m_Name: pb_Mesh100288
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -4033,7 +4032,7 @@ GameObject:
   - component: {fileID: 1122192102}
   - component: {fileID: 1122192101}
   m_Layer: 9
-  m_Name: NPC1 (1)
+  m_Name: NPC1
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4099,11 +4098,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    name: Hello
+    name: Horace
     sentences:
-    - Yes
-    - "No\t\t\t"
-    - OK
+    - 'You''ll have to apply the principles '
+    - of Hinengaro to get through here.
+    - 'Hinengaro is defined by '
+    - psychological wellbeing.
+    - 'Use it overcome the fear '
+    - of traversing this tunnel!
 --- !u!114 &1122192105
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4828,7 +4830,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh67114
+  m_Name: pb_Mesh100398
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -5480,7 +5482,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh66996
+  m_Name: pb_Mesh100238
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -7339,7 +7341,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh67210
+  m_Name: pb_Mesh100506
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -9055,7 +9057,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh67070
+  m_Name: pb_Mesh100342
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -9515,7 +9517,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh67038
+  m_Name: pb_Mesh100304
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2

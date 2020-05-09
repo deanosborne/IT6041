@@ -659,7 +659,7 @@ GameObject:
   - component: {fileID: 456651914}
   - component: {fileID: 456651913}
   m_Layer: 9
-  m_Name: NPC1 (1)
+  m_Name: NPC1
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -725,11 +725,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    name: Hello
+    name: Caiden
     sentences:
-    - Yes
-    - "No\t\t\t"
-    - OK
+    - Hey there traveler.
+    - I have something important to tell you.
+    - "Remember that the definition of \n"
+    - 'Tinana is promoting the physical '
+    - "wellbeing and of the client.\r"
+    - 'This will be important  to remember...
+
+'
 --- !u!114 &456651917
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1801,7 +1806,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh42406
+  m_Name: pb_Mesh99788
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
