@@ -19,10 +19,11 @@ public class Waka : MonoBehaviour
 
     public void OnTriggerEnter(Collider coll)
     {
-        if (GameManager.Instance.Lv1 == 1)
+        if (GameManager.Instance.Completed == 3)
         {
 
             SceneManager.LoadScene(1);
+            //end game
 
         }
     }

@@ -70,6 +70,11 @@
      <Compile Include="Assets\CustomQuest\Assets\Scripts\Dialogue\Dialogue.cs" />
      <Compile Include="Assets\CustomQuest\Assets\Scripts\Dialogue\DialogueManager.cs" />
      <Compile Include="Assets\CustomQuest\Assets\Scripts\Dialogue\DialogueTrigger.cs" />
+     <Compile Include="Assets\CustomQuest\Assets\Scripts\Dialogue\Final.cs" />
+     <Compile Include="Assets\CustomQuest\Assets\Scripts\Dialogue\HealingDialogue.cs" />
+     <Compile Include="Assets\CustomQuest\Assets\Scripts\Dialogue\Level2Dialogue\NPC1.cs" />
+     <Compile Include="Assets\CustomQuest\Assets\Scripts\Dialogue\Level2Dialogue\NPC2.cs" />
+     <Compile Include="Assets\CustomQuest\Assets\Scripts\Dialogue\Level2Dialogue\NPC3.cs" />
      <Compile Include="Assets\CustomQuest\Assets\Scripts\Dialogue\NPC1Dialogue1.cs" />
      <Compile Include="Assets\CustomQuest\Assets\Scripts\Dialogue\NPC1Dialogue2.cs" />
      <Compile Include="Assets\CustomQuest\Assets\Scripts\Dialogue\NPC2Dialogue1.cs" />
