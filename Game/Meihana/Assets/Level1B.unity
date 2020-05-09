@@ -5303,6 +5303,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Layer
       objectReference: {fileID: 0}
+    - target: {fileID: 8532504843534335080, guid: dd50a8fe5779d3d4d9069d30782cdb1c,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 300
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd50a8fe5779d3d4d9069d30782cdb1c, type: 3}
 --- !u!1 &1387436582
