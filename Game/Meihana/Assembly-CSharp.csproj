@@ -104,6 +104,9 @@
      <Compile Include="Assets\CustomQuest\Assets\Scripts\SettingsHolder.cs" />
      <Compile Include="Assets\CustomQuest\Assets\Scripts\SpawnZone.cs" />
      <Compile Include="Assets\SceneAssets\LowPolyWater_Pack\Scripts\LowPolyWater.cs" />
+     <Compile Include="Assets\Supercyan Character Pack Free Sample\Scripts\CameraLogicFree.cs" />
+     <Compile Include="Assets\Supercyan Character Pack Free Sample\Scripts\DemoFree.cs" />
+     <Compile Include="Assets\Supercyan Character Pack Free Sample\Scripts\SimpleCharacterControlFree.cs" />
      <None Include="Assets\QuestReadme.txt" />
      <None Include="Assets\CustomQuest\Assets\GFX\UI\Font\FONTLOG.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
@@ -111,6 +114,7 @@
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\CustomQuest\Assets\Templates\QuestTemplate.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
+     <None Include="Assets\Supercyan Character Pack Free Sample\Shaders\FreeCelShader.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets\JsonDotNet\link.xml" />
      <None Include="Assets\CustomQuest\Assets\GFX\UI\Font\LICENSE.txt" />
