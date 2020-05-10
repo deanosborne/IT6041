@@ -1,7 +1,3 @@
-F:\Users\imdea\Desktop\UNI\FINALPROJECT\IT6041\Mobile\App5\App5\App5\bin\Debug\netstandard2.0\App5.deps.json
-F:\Users\imdea\Desktop\UNI\FINALPROJECT\IT6041\Mobile\App5\App5\App5\bin\Debug\netstandard2.0\App5.dll
-F:\Users\imdea\Desktop\UNI\FINALPROJECT\IT6041\Mobile\App5\App5\App5\bin\Debug\netstandard2.0\ref\App5.dll
-F:\Users\imdea\Desktop\UNI\FINALPROJECT\IT6041\Mobile\App5\App5\App5\bin\Debug\netstandard2.0\App5.pdb
 F:\Users\imdea\Desktop\UNI\FINALPROJECT\IT6041\Mobile\App5\App5\App5\obj\Debug\netstandard2.0\App.xaml.g.cs
 F:\Users\imdea\Desktop\UNI\FINALPROJECT\IT6041\Mobile\App5\App5\App5\obj\Debug\netstandard2.0\Themes\LightTheme.xaml.g.cs
 F:\Users\imdea\Desktop\UNI\FINALPROJECT\IT6041\Mobile\App5\App5\App5\obj\Debug\netstandard2.0\Views\AboutUs\AboutMeihanaPage.xaml.g.cs
@@ -28,6 +24,11 @@ F:\Users\imdea\Desktop\UNI\FINALPROJECT\IT6041\Mobile\App5\App5\App5\obj\Debug\n
 F:\Users\imdea\Desktop\UNI\FINALPROJECT\IT6041\Mobile\App5\App5\App5\obj\Debug\netstandard2.0\Views\Templates\Styles.xaml.g.cs
 F:\Users\imdea\Desktop\UNI\FINALPROJECT\IT6041\Mobile\App5\App5\App5\obj\Debug\netstandard2.0\App5.AssemblyInfoInputs.cache
 F:\Users\imdea\Desktop\UNI\FINALPROJECT\IT6041\Mobile\App5\App5\App5\obj\Debug\netstandard2.0\App5.AssemblyInfo.cs
+F:\Users\imdea\Desktop\UNI\FINALPROJECT\IT6041\Mobile\App5\App5\App5\bin\Debug\netstandard2.0\App5.deps.json
+F:\Users\imdea\Desktop\UNI\FINALPROJECT\IT6041\Mobile\App5\App5\App5\bin\Debug\netstandard2.0\App5.dll
+F:\Users\imdea\Desktop\UNI\FINALPROJECT\IT6041\Mobile\App5\App5\App5\bin\Debug\netstandard2.0\ref\App5.dll
+F:\Users\imdea\Desktop\UNI\FINALPROJECT\IT6041\Mobile\App5\App5\App5\bin\Debug\netstandard2.0\App5.pdb
+F:\Users\imdea\Desktop\UNI\FINALPROJECT\IT6041\Mobile\App5\App5\App5\obj\Debug\netstandard2.0\Views\Catalog\ArticleListPage2.xaml.g.cs
 F:\Users\imdea\Desktop\UNI\FINALPROJECT\IT6041\Mobile\App5\App5\App5\obj\Debug\netstandard2.0\XamlC.stamp
 F:\Users\imdea\Desktop\UNI\FINALPROJECT\IT6041\Mobile\App5\App5\App5\obj\Debug\netstandard2.0\App5.dll
 F:\Users\imdea\Desktop\UNI\FINALPROJECT\IT6041\Mobile\App5\App5\App5\obj\Debug\netstandard2.0\ref\App5.dll

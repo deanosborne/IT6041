@@ -59,8 +59,39 @@
                 </Image>
 
                 <Label Grid.Row="2" Grid.Column="0" Text="Clinician" Font="Large" LineBreakMode="TailTruncation" FontFamily="{StaticResource Montserrat-Bold}"></Label>
-                <Label Grid.Row="3" Grid.Column="0" Text="The aim is NOT to determine 'how Māori a client is' but to identify their beliefs, values and experiences within a Māori context; currently and in the past.The Meihana Model was developed for a Mental health situation but can be applied across the health arena."  FontFamily="{StaticResource Montserrat-Regular}" 
-                       ></Label>
+                <Label Grid.Row="3" Grid.Column="0" Text="The aim is NOT to determine 'how Māori a client is' but to identify their beliefs, values and experiences within a Māori context; currently and in the past.The Meihana Model was developed for a Mental health situation but can be applied across the health arena."  FontFamily="{StaticResource Montserrat-Regular}" ></Label>
+                <Label Grid.Row="2" Grid.Column="0" Text="Whanau" Font="Large" LineBreakMode="TailTruncation" FontFamily="{StaticResource Montserrat-Bold}"></Label>
+                <Label Grid.Row="3" Grid.Column="0" Text="Definition: Client support networks
+Rationale: Whanau is seen as having a key role in the assessment, intervention and monitoring process of the client/whanau.
+Application:
+involve whanau with Assessment (Ax) and intervention.
+Allow space to for this.
+Whanau has opportunity to decide on the level of Maori cultural input to engage in.
+The ability to give feedback about cultural safety of the service." FontFamily="{StaticResource Montserrat-Regular}" ></Label>
+
+                <Label Grid.Row="2" Grid.Column="0" Text="Tinana" Font="Large" LineBreakMode="TailTruncation" FontFamily="{StaticResource Montserrat-Bold}"></Label>
+                <Label Grid.Row="3" Grid.Column="0" Text="Definition: Working to promote physical wellbeing of client/whanau.
+Rationale: To ensure that the service encompasses the importance of physical well-being and its relationship to overall psychological wellbeing.
+Application:
+Policies and procedures in place for referrals with clients consent.
+Results from assessments need to be clearly articulated to client/whanau about how these will inform the overall treatment plan." FontFamily="{StaticResource Montserrat-Regular}" ></Label>
+
+                <Label Grid.Row="2" Grid.Column="0" Text="Hinengaro" Font="Large" LineBreakMode="TailTruncation" FontFamily="{StaticResource Montserrat-Bold}"></Label>
+                <Label Grid.Row="3" Grid.Column="0" Text="Definition: To address clear potential biases within the current psychological practice.
+Rationale: To ensure cultural accountability of measures used to provide evidence that supports or challenges hypotheses/diagnosis around the presenting behaviours.
+Application:
+Ax tools and diagnosis processes within appropriate cultural context to ensure valid hypotheses and appropriate interventions.
+Services identify barriers or biases when working with Māori.
+Policies and resources to support clinicians in supervision so that analysis of Ax data is matched to Māori beliefs, values and experiences." FontFamily="{StaticResource Montserrat-Regular}" ></Label>
+
+                <Label Grid.Row="2" Grid.Column="0" Text="Wairua " Font="Large" LineBreakMode="TailTruncation" FontFamily="{StaticResource Montserrat-Bold}"></Label>
+                <Label Grid.Row="3" Grid.Column="0" Text="Definition: Level of Attachment
+Rationale: To investigate factors that contribute to engagement and therefore the level of attachment the client/whanu feel to the service and services being provided.
+Application:
+Who and where the client feel connected to (reduces rate of non-attendance, and for client/whanau to feel safe).
+Look at what, within a service that may be a barrier/s to clients attachment to that service.
+Space for important rituals to client/whanau, eg karakia." FontFamily="{StaticResource Montserrat-Regular}" ></Label>
+
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

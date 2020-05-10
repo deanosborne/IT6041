@@ -29,6 +29,24 @@ namespace App5.ViewModels.Catalog
 
         #region Public properties
 
+        public CategoryPageViewModel()
+            {
+            this.categories = new ObservableCollection<Category>
+            {
+                new Category
+                {
+                    Icon = "meihana.png",
+                    Name = "Further learning",
+                },
+                new Category
+                {
+                    Icon ="whanau.png",
+                    Name = "Contributors",
+                },
+            };
+        }
+
+
         /// <summary>
         /// Gets or sets the property that has been bound with StackLayout, which displays the categories using ComboBox.
         /// </summary>

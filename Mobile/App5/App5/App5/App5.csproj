@@ -49,6 +49,9 @@
     <EmbeddedResource Update="Views\AboutUs\Styles.xaml">
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Update="Views\Catalog\ArticleListPage2.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="Views\Catalog\ArticleListPage.xaml">
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
@@ -111,5 +114,11 @@
   <ItemGroup>
     <Folder Include="Services\" />
     <Folder Include="ViewModels\Article\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Views\Catalog\ArticleListPage2.xaml.cs">
+      <DependentUpon>ArticleListPage2.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
 </Project>

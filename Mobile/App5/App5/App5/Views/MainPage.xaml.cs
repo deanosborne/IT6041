@@ -41,7 +41,7 @@ namespace App5.Views
                         MenuPages.Add(id, new NavigationPage(new ArticleListPage()));
                         break;
                     case (int)MenuItemType.Resources:
-                        MenuPages.Add(id, new NavigationPage(new CategoryTilePage()));
+                        MenuPages.Add(id, new NavigationPage(new ArticleListPage2()));
                         break;
                     case (int)MenuItemType.About:
                         MenuPages.Add(id, new NavigationPage(new AboutMeihanaPage()));

@@ -12,7 +12,6 @@ namespace App5.Views.Catalog
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class ArticleListPage
     {
-        UserContext _usercontext;
         /// <summary>
         /// Initializes a new instance of the <see cref="ArticleListPage" /> class.
         /// </summary>
